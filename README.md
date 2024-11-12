@@ -1,7 +1,7 @@
 #    Image Processing
-Libraries or Frame Works Used - opencv__  
-Version - 4.10.0.84__  
-Developed Logics -__    
+Libraries or Frame Works Used - opencv<br />
+Version - 4.10.0.84<br />  
+Developed Logics -<br />    
   A. Image_Noise removal & Closing Gaps<br />    
   B. Image_Template image<br />
   C. Image_Colour image <br /> 
@@ -20,52 +20,51 @@ Developed Logics -__
 
 
    #  Video Processing
-Libraries or Frame Works Used - opencv__ 
-Version - 4.10.0.84____  
-Developed Logics -____  
-A. Video_multivid____  
-B. Video_fps____  
-C. Video_save____  
-D. Video_stackingh____  
-E. Video_stackingv____  
-F. Video_stream____  
+Libraries or Frame Works Used - opencv<br />
+Version - 4.10.0.84<br /> 
+Developed Logics -<br />
+A. Video_multivid<br /> 
+B. Video_fps<br /> 
+C. Video_save<br /> 
+D. Video_stackingh<br />
+E. Video_stackingv<br />
+F. Video_stream<br />
 
 
   #  ANNOTATIONS
-Libraries or Frame Works Used - opencv, labelimg__ 
-Version - 4.10.0.84 , version of labelImg - 1.8.6__ 
-Developed Logics -__ 
-A.data_segregate____  
-B.label____  
-C. label_manipulate____  
-
+Libraries or Frame Works Used - opencv, labelimg<br />
+Version - 4.10.0.84 , version of labelImg - 1.8.6<br />
+Developed Logics -<br />
+A.data_segregate<br />
+B.label<br />
+C. label_manipulate<br />
 
 # Face_Recognition
-  Libraries or Frame Works Used - opencv, labelimg__ 
-  opencv-python == 4.10.0.84__ 
-  face_recognition == 1.3.0__ 
-  dlib == 19.24.6__ 
-  pandas ==  2.2.3__ 
-  numpy == 2.1.2__ 
-  datetime == 5.5__ 
-  imutils == 0.5.4__ 
+  Libraries or Frame Works Used - opencv, labelimg<br />
+  opencv-python == 4.10.0.84<br />
+  face_recognition == 1.3.0<br /> 
+  dlib == 19.24.6<br />
+  pandas ==  2.2.3<br />
+  numpy == 2.1.2<br />
+  datetime == 5.5<br />
+  imutils == 0.5.4<br />
  #    Developed Logics -__ 
-  A.attendence____  
-  B. Face_Recog____ 
-  C. Test 1____  
-  D. Tools____  
-  E. excel_sc__ 
-  F. excel_sc_dt__ 
-  G. attention_score__ 
-  H. avg_attention_score__ 
-  I. landmark__ 
-  J. Shiva_attendence_save__ 
-  K. Shiva_face_recognition__ 
-  L. Shiva_test__ 
-  M. Shiva_tools__ 
-  N. Shiva_excel_sc__ 
-  O. Shiva_excel_sc_dt__ 
-  P. Shiva_attention_score__ 
+  A.attendence<br />
+  B. Face_Recog<br />
+  C. Test 1<br />
+  D. Tools<br /> 
+  E. excel_sc<br />
+  F. excel_sc_dt<br />
+  G. attention_score<br />
+  H. avg_attention_score<br />
+  I. landmark<br />
+  J. Shiva_attendence_save<br /> 
+  K. Shiva_face_recognition<br /> 
+  L. Shiva_test<br />
+  M. Shiva_tools<br />
+  N. Shiva_excel_sc<br />
+  O. Shiva_excel_sc_dt<br /> 
+  P. Shiva_attention_score<br />
   Q. Shiva_avg_attention_score__ 
   
   
