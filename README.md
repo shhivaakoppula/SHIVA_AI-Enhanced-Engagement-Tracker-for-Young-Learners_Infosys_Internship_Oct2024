@@ -2,21 +2,21 @@
 Libraries or Frame Works Used - opencv__  
 Version - 4.10.0.84__  
 Developed Logics -__    
-  A. Image_Noise removal & Closing Gaps____    
-  B. Image_Template image____ 
-  C. Image_Colour image____  
-  D. Image_Concatenation image____ 
-  E. Image_Contour image____  
-  F. Image_Crop image____ 
-  G. Image_Detectanderosion image____  
-  H. Image_edgedetect image____  
-  I. Image_euqalized image____  
-  J. Image_hsv image____  
-  K. Image_morph image____  
-  L. Image_resize image____  
-  M. Image_rgbtogery image____  
-  N. Image_singleimage image____  
-  O. Image_blur image____  
+  A. Image_Noise removal & Closing Gaps<br />    
+  B. Image_Template image<br />
+  C. Image_Colour image <br /> 
+  D. Image_Concatenation image <br />
+  E. Image_Contour image<br /> 
+  F. Image_Crop image<br /> 
+  G. Image_Detectanderosion image<br />
+  H. Image_edgedetect image<br /> 
+  I. Image_euqalized image<br />
+  J. Image_hsv image<br /> 
+  K. Image_morph image<br />
+  L. Image_resize image<br />
+  M. Image_rgbtogery image<br />
+  N. Image_singleimage image<br />
+  O. Image_blur image<br />
 
 
    #  Video Processing
