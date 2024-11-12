@@ -1,8 +1,5 @@
-Here's a README file you can use to describe the code on GitHub:
 
----
-
-# Real-Time Face Recognition and Attendance Logging
+#  Real-Time Face Recognition and Attendance Logging
 
 This project performs real-time face recognition using a known face (Barack Obama) from a preloaded image, with results logged to an Excel file each time a recognition is made. The program processes a video input, detecting faces and matching them against a known face encoding using the `face_recognition` library. Once a face is recognized five times, the recognition information is saved to an Excel file.
 
