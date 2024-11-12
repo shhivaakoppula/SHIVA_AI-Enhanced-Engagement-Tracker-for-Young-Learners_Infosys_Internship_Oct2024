@@ -2,7 +2,7 @@
 Libraries or Frame Works Used - opencv<br />
 Version - 4.10.0.84 
 Developed Logics -   
-  A. Image_Noise removal & Closing Gaps
+  A. Image_Noise removal & Closing Gaps<br />
   B. Image_Template image<br />
   C. Image_Colour image <br /> 
   D. Image_Concatenation image <br />
