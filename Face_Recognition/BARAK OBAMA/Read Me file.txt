@@ -1,0 +1,93 @@
+This code performs live video-based facial recognition using OpenCV and the `face_recognition` library. It loads a known image of Barack Obama, encodes his face, and then checks each frame in a video feed to see if a face in the frame matches the known encoding.
+1. Imports :
+   python
+   import cv2 as cv
+   import face_recognition
+     `cv2` (OpenCV) is used for video capture and image processing.
+   - `face_recognition` is a library for face detection and recognition.
+
+2. Load the Known Image :
+   python
+   known_image = face_recognition.load_image_file("C:\\Users\\Shiva Goud\\Desktop\\INFOSYS SPRING BOARD\\Face_Recognition\\OBAMA.jpg")
+   known_faces = face_recognition.face_encodings(known_image, num_jitters=50, model='large')[0]
+   
+   - Loads an image of Barack Obama (`OBAMA.jpg`) and creates a unique "encoding" of his face. This encoding is a numerical representation of facial features, making it possible to compare faces.
+   - `num_jitters=50`: Adds randomness to the encoding process, which can improve accuracy by taking multiple samples.
+   - `model='large'`: Uses the more accurate (but slower) face encoding model.
+
+3. Initialize Video Capture :
+   python
+   cam = cv.VideoCapture("C:\\Users\\Shiva Goud\\Desktop\\INFOSYS SPRING BOARD\\Face_Recognition\\1000097197.mp4")
+   if not cam.isOpened():
+       print("Camera not working")
+       exit()
+     `cv.VideoCapture()` opens the video file or camera stream. Here, it's opening a video file (`1000097197.mp4`).
+   - `cam.isOpened()` checks if the video stream opened successfully. If it fails, it prints an error message and exits.
+
+4. Set Confidence Threshold :
+   python
+   confidence_threshold = 0.6
+   Sets the threshold for face matching. Lower values make matching more strict, while higher values make it more lenient.
+5. Start Video Stream Loop :
+  python
+   while True:
+       ret, frame = cam.read()
+   - `cam.read()` captures each frame of the video.
+   - If `ret` is `False`, the frame wasn’t captured successfully, and the loop exits.
+
+6. Detect Faces in Each Frame :
+    python
+   face_locations = face_recognition.face_locations(frame)
+   face_encodings = face_recognition.face_encodings(frame)
+   - `face_locations` detects the positions of faces within the current frame.
+   - `face_encodings` encodes each detected face, creating a unique numerical representation similar to the `known_faces` encoding.
+   - These encodings are computed using deep learning models that analyze the facial features.
+
+7. Face Recognition Comparison :
+   python
+   recognized = False
+   for face_encoding in face_encodings:
+       distance = face_recognition.face_distance([known_faces], face_encoding)[0]
+       if distance < confidence_threshold:
+           recognized = True
+   - For each face encoding, the code computes the distance between the encoding of Barack Obama's face (`known_faces`) and the detected face encoding in the frame.
+   - If the computed `distance` is below `confidence_threshold`, it's considered a match.
+
+8. Draw Rectangle and Label for Recognized Faces :
+   python
+   if distance < confidence_threshold:
+       recognized = True
+       for face_location in face_locations:
+           top, right, bottom, left = face_location
+           cv.rectangle(frame, (left, top), (right, bottom), color=(0, 255, 0), thickness=2)
+           frame = cv.putText(frame, 'Barack Obama', (left, top - 10), cv.FONT_HERSHEY_SIMPLEX, 0.5, (255, 0, 0), 2, cv.LINE_AA)
+   - If a face is recognized, a green rectangle is drawn around it, and the text `'Barack Obama'` is displayed above the rectangle.
+   - `cv.rectangle` and `cv.putText` from OpenCV are used to annotate the frame.
+9. Label for Unrecognized Faces :
+   python
+   if not recognized:
+       frame = cv.putText(frame, 'Not Barack Obama', (30, 55), cv.FONT_HERSHEY_SIMPLEX, 1, (255, 0, 0), 2, cv.LINE_AA)
+   
+   If no faces are recognized as Barack Obama, `'Not Barack Obama'` is displayed on the frame.
+10. Display the Frame :
+    python
+    cv.imshow('Video Stream', frame)
+     Displays the annotated frame in a window titled "Video Stream."
+    This function updates with each new frame, creating a real-time video feed.
+11. Quit on Key Press:
+    python
+    if cv.waitKey(1) == ord('q'):
+        break
+  Waits for the user to press the `q` key to quit the loop and stop the video stream.
+12. Release Resources :
+    python
+    cam.release()
+    cv.destroyAllWindows()
+    Releases the video stream and closes any OpenCV windows.
+Background Processes and How They Work
+Face Detection: Uses a deep learning model to locate faces within an image by analysing pixel patterns. This step runs multiple times per second on each frame.
+Face Encoding: The face_recognition library creates a 128-dimensional feature vector from the detected face, representing its unique structure.
+Distance Calculation: Compares the new face encoding with known ones by calculating Euclidean distance. This measurement determines if two faces are similar based on numerical proximity within the feature space.
+Video Stream Update: Each frame is processed and displayed in real-time, creating a live feed with overlays for recognized faces.
+This script combines computer vision and deep learning for real-time face recognition, showcasing a fundamental use of AI for video analysis.
+
