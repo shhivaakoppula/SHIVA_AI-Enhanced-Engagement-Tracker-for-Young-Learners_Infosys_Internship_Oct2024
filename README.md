@@ -1,4 +1,4 @@
-    Image Processing
+#    Image Processing
 Libraries or Frame Works Used - opencv
 Version - 4.10.0.84
 Developed Logics - 
@@ -19,7 +19,7 @@ Developed Logics -
   O. Image_blur image
 
 
-     Video Processing
+   #  Video Processing
 Libraries or Frame Works Used - opencv
 Version - 4.10.0.84
 Developed Logics -
@@ -31,7 +31,7 @@ E. Video_stackingv
 F. Video_stream
 
 
-    ANNOTATIONS
+  #  ANNOTATIONS
 Libraries or Frame Works Used - opencv, labelimg
 Version - 4.10.0.84 , version of labelImg - 1.8.6
 Developed Logics -
@@ -40,7 +40,7 @@ B.label
 C. label_manipulate
 
 
-       Face_Recognition
+# Face_Recognition
   Libraries or Frame Works Used - opencv, labelimg
   opencv-python == 4.10.0.84
   face_recognition == 1.3.0
@@ -49,7 +49,7 @@ C. label_manipulate
   numpy == 2.1.2
   datetime == 5.5
   imutils == 0.5.4
-      Developed Logics -
+ #    Developed Logics -
   A.attendence
   B. Face_Recog
   C. Test 1
