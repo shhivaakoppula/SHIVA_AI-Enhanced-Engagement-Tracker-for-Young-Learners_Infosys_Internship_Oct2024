@@ -1,7 +1,7 @@
 #    Image Processing
-Libraries or Frame Works Used - opencv<br />
-Version - 4.10.0.84<br />
-Developed Logics -   
+###Libraries or Frame Works Used - opencv###<br />
+###Version - 4.10.0.84<br />###
+###Developed Logics -  ### 
   A. Image_Noise removal & Closing Gaps<br />
   B. Image_Template image<br />
   C. Image_Colour image <br /> 
@@ -20,9 +20,9 @@ Developed Logics -
 
 
    #  Video Processing
-Libraries or Frame Works Used - opencv<br />
-Version - 4.10.0.84<br /> 
-Developed Logics -<br />
+###Libraries or Frame Works Used - opencv###<br />
+###Version - 4.10.0.84###<br /> 
+###Developed Logics -###<br />
 A. Video_multivid<br /> 
 B. Video_fps<br /> 
 C. Video_save<br /> 
@@ -32,22 +32,22 @@ F. Video_stream<br />
 
 
   #  ANNOTATIONS
-Libraries or Frame Works Used - opencv, labelimg<br />
-Version - 4.10.0.84 , version of labelImg - 1.8.6<br />
-Developed Logics -<br />
+###Libraries or Frame Works Used - opencv, labelimg###<br />
+###Version - 4.10.0.84 , version of labelImg - 1.8.6###<br />
+###Developed Logics -###<br />
 A.data_segregate<br />
 B.label<br />
 C. label_manipulate<br />
 
 # Face_Recognition
-  Libraries or Frame Works Used - opencv, labelimg<br />
-  opencv-python == 4.10.0.84<br />
-  face_recognition == 1.3.0<br /> 
-  dlib == 19.24.6<br />
-  pandas ==  2.2.3<br />
-  numpy == 2.1.2<br />
-  datetime == 5.5<br />
-  imutils == 0.5.4<br />
+  ###Libraries or Frame Works Used - opencv, labelimg###<br />
+  ###opencv-python == 4.10.0.84###<br />
+  ###face_recognition == 1.3.0###<br /> 
+  ###dlib == 19.24.6###<br />
+  ###pandas ==  2.2.3###<br />
+  ###numpy == 2.1.2###<br />
+  ###datetime == 5.5###<br />
+  ###imutils == 0.5.4###<br />
  #    Developed Logics -__ 
   A.attendence<br />
   B. Face_Recog<br />
