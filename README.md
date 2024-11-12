@@ -1,43 +1,43 @@
 #    Image Processing
 Libraries or Frame Works Used - opencv__  
-Version - 4.10.0.84__   
+Version - 4.10.0.84__  
 Developed Logics -__    
-  A. Image_Noise removal & Closing Gaps__   
-  B. Image_Template image__ 
-  C. Image_Colour image__ 
-  D. Image_Concatenation image__ 
-  E. Image_Contour image__ 
-  F. Image_Crop image__ 
-  G. Image_Detectanderosion image__ 
-  H. Image_edgedetect image__ 
-  I. Image_euqalized image__ 
-  J. Image_hsv image__ 
-  K. Image_morph image__ 
-  L. Image_resize image__ 
-  M. Image_rgbtogery image__ 
-  N. Image_singleimage image__ 
-  O. Image_blur image__ 
+  A. Image_Noise removal & Closing Gaps____    
+  B. Image_Template image____ 
+  C. Image_Colour image____  
+  D. Image_Concatenation image____ 
+  E. Image_Contour image____  
+  F. Image_Crop image____ 
+  G. Image_Detectanderosion image____  
+  H. Image_edgedetect image____  
+  I. Image_euqalized image____  
+  J. Image_hsv image____  
+  K. Image_morph image____  
+  L. Image_resize image____  
+  M. Image_rgbtogery image____  
+  N. Image_singleimage image____  
+  O. Image_blur image____  
 
 
    #  Video Processing
 Libraries or Frame Works Used - opencv__ 
-Version - 4.10.0.84__ 
-Developed Logics -__ 
-A. Video_multivid__ 
-B. Video_fps__ 
-C. Video_save__ 
-D. Video_stackingh__ 
-E. Video_stackingv__ 
-F. Video_stream__ 
+Version - 4.10.0.84____  
+Developed Logics -____  
+A. Video_multivid____  
+B. Video_fps____  
+C. Video_save____  
+D. Video_stackingh____  
+E. Video_stackingv____  
+F. Video_stream____  
 
 
   #  ANNOTATIONS
 Libraries or Frame Works Used - opencv, labelimg__ 
 Version - 4.10.0.84 , version of labelImg - 1.8.6__ 
 Developed Logics -__ 
-A.data_segregate__ 
-B.label__ 
-C. label_manipulate__ 
+A.data_segregate____  
+B.label____  
+C. label_manipulate____  
 
 
 # Face_Recognition
@@ -50,10 +50,10 @@ C. label_manipulate__
   datetime == 5.5__ 
   imutils == 0.5.4__ 
  #    Developed Logics -__ 
-  A.attendence__ 
-  B. Face_Recog__ 
-  C. Test 1__ 
-  D. Tools__ 
+  A.attendence____  
+  B. Face_Recog____ 
+  C. Test 1____  
+  D. Tools____  
   E. excel_sc__ 
   F. excel_sc_dt__ 
   G. attention_score__ 
