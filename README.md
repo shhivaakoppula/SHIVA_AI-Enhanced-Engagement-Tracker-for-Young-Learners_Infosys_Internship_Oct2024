@@ -1,6 +1,6 @@
 #    Image Processing
 Libraries or Frame Works Used - opencv<br />
-Version - 4.10.0.84 
+Version - 4.10.0.84<br />
 Developed Logics -   
   A. Image_Noise removal & Closing Gaps<br />
   B. Image_Template image<br />
