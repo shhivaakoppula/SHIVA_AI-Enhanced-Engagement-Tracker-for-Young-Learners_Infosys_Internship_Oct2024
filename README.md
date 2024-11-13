@@ -367,6 +367,9 @@ This script updates class IDs in label files, replacing a specified old class ID
   
   ### C. Test 1<br />
 
+  **This script performs real-time face recognition using OpenCV and `face_recognition` on a video feed. It detects faces, compares them to a known image of Barack Obama, and logs the recognition date and time 
+    in a DataFrame. If recognized, it annotates the video feed with labels, periodically saving the data to an Excel file.** <br />
+
   ### Input: Image of Barak Obama & Video
 
   ![Barak Obama](https://github.com/user-attachments/assets/a62c20bf-5d9d-4fc2-a16f-8db9f507e7c9)
@@ -375,6 +378,9 @@ This script updates class IDs in label files, replacing a specified old class ID
   
   ### D. Tools<br /> 
 
+  **This Python script uses OpenCV and `face_recognition` to perform face recognition on a video feed, identifying a known image of Barack Obama. It tracks and annotates recognized faces in real time, logging 
+   the recognition time and date to an Excel file once a threshold of five recognitions is met. Users can end the video stream by pressing "q," and a final log save occurs upon exit.** <br /> 
+
   ### Input: Image of Barak Obama & Video
   
   ![Barak Obama](https://github.com/user-attachments/assets/a62c20bf-5d9d-4fc2-a16f-8db9f507e7c9)
@@ -382,6 +388,10 @@ This script updates class IDs in label files, replacing a specified old class ID
   ### Output: 
   
   ### E. excel_sc<br />
+
+  **This Python script performs real-time face recognition using OpenCV and `face_recognition`, comparing detected faces in a video feed to a known image of Barack Obama. It logs recognized faces with timestamps 
+    and saves screenshots for each recognition at regular intervals, outputting all data to an Excel file with paths to the saved images. The program ends and saves the data upon pressing "q" or if the video 
+    feed ends.** <br />
 
   ### Input: Image of Barak Obama & Video
 
@@ -398,6 +408,10 @@ This script updates class IDs in label files, replacing a specified old class ID
   
   ### F. excel_sc_dt<br />
 
+  **This Python script captures real-time face recognition using OpenCV and `face_recognition` to identify Barack Obama in a video feed, logging each recognition with timestamps and saving annotated screenshots. 
+    Recognitions are recorded every two minutes, and a new log entry with a screenshot is created every five minutes. The data, including screenshot paths, is saved to an Excel file upon program exit or by 
+    pressing "q."** <br />
+
   ### Input: Image of Barak Obama & Video
 
   ![Barak Obama](https://github.com/user-attachments/assets/a62c20bf-5d9d-4fc2-a16f-8db9f507e7c9)
@@ -413,6 +427,10 @@ This script updates class IDs in label files, replacing a specified old class ID
   
   ### G. attention_score<br />
 
+  **This Python script performs real-time face recognition and attentiveness analysis on a video feed, identifying Barack Obama and calculating an attentiveness score based on head pose (yaw and pitch). 
+    Screenshots are captured and saved when the individual is attentive, with recognition events and attention scores logged in an Excel file. The application uses OpenCV, `face_recognition`, and dlib for 
+    facial detection and landmark analysis.** <br />
+
   ### Input: Image of Barak Obama & Video
   
   ![Barak Obama](https://github.com/user-attachments/assets/a62c20bf-5d9d-4fc2-a16f-8db9f507e7c9)
@@ -427,6 +445,11 @@ This script updates class IDs in label files, replacing a specified old class ID
 
   ### H. avg_attention_score<br />
 
+  **This Python script performs real-time face recognition and attentiveness analysis on a video feed, identifying Barack Obama and calculating an attentiveness score based on head pose (yaw and pitch). 
+    Screenshots are captured when the individual is attentive, and recognition events, along with attention scores, are logged in an Excel file. The script also calculates and appends the average attentiveness 
+    score at the end of the session.** <br />
+
+
   ### Input: Image of Barak Obama & Video
 
   ![Barak Obama](https://github.com/user-attachments/assets/a62c20bf-5d9d-4fc2-a16f-8db9f507e7c9)
@@ -440,6 +463,10 @@ This script updates class IDs in label files, replacing a specified old class ID
 
 
   ### I. landmark<br />
+
+  **This Python script performs real-time face recognition and attentiveness detection, identifying a known face (Barack Obama) and assessing attentiveness based on head pose (yaw and pitch). If the individual 
+    is deemed attentive, a screenshot is captured, and the recognition event is logged in an Excel file. The script also highlights the face with a rectangle and displays an attentiveness status (Attentive/Not 
+    Attentive) on the video stream.** <br />
 
   ### Input: Image of Barak Obama & Video
 
