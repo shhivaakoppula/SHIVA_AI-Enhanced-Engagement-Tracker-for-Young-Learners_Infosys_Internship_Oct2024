@@ -1,8 +1,10 @@
 #    Image Processing
-### Libraries or Frame Works Used - opencv <br />
-### Version - 4.10.0.84  <br />
-### Developed Logics -<br />
-  A. Image_Noise removal & Closing Gaps<br />
+## Libraries or Frame Works Used - opencv <br />
+## Version - 4.10.0.84  <br />
+## Developed Logics -<br />
+  ### A. Image_Noise removal & Closing Gaps<br />
+  **Image Noise Removal:** The process of reducing random variations (noise) in an image to enhance clarity, often using filters.<br />
+  **Closing Gaps:** A morphological operation that fills small holes or gaps in an image to create more continuous and solid regions, typically applied after edge detection.<br />
   B. Image_Template image<br />
   C. Image_Colour image <br /> 
   D. Image_Concatenation image <br />
