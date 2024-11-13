@@ -212,27 +212,89 @@
 ## Libraries or Frame Works Used - opencv <br />
 ## Version - 4.10.0.84 <br /> 
 ## Developed Logics - <br />
+
 ### A. Video_multivid<br />
+
 **Multi-Video:** The simultaneous display or processing of multiple video streams, often combined into a single output for comparison, editing, or analysis.<br />
+
+### Input: 
+
+### Output: 
+
+
 ### B. Video_fps<br />
+
 **Video FPS (Frames Per Second):** The number of individual frames displayed per second in a video, determining its smoothness and motion quality.<br />
+
+### Input: Webcam 
+
+### Output: 
+
+![Input Video Processing for fps](https://github.com/user-attachments/assets/28c36f69-3dc1-4ed5-91e5-cb058694617f)
+
+
 ### C. Video_save<br />
+
 **Video Save:** The process of storing a video file in a specified format and location on a storage device for future access or playback.<br />
+
+### Input:  Webcam  
+
+### Output: 
+
+![Input for video processing](https://github.com/user-attachments/assets/d50094c1-e987-49df-adc7-be8369fe424a)
+
+
 ### D. Video_stackingh<br />
+
 **Video Stacking Horizontal:** The process of arranging multiple video clips side-by-side in a single frame, creating a horizontal sequence for comparison or simultaneous viewing.<br />
+
+### Input:  Webcam  
+
+### Output: 
+
+![Input for video processing](https://github.com/user-attachments/assets/bf6ee5bc-bc2d-4f02-b5ff-177754372ff5)
+
+
 ### E. Video_stackingv<br />
+
 **Video Stacking Vertical:** The process of arranging multiple video clips one above the other in a single frame, creating a vertical sequence for comparison or simultaneous viewing.<br />
+
+### Input:  Webcam 
+
+### Output: 
+
+![Input for video processing](https://github.com/user-attachments/assets/3c08d93e-59c1-46ab-a50c-ff88cd5e25bd)
+
+
 ### F. Video_stream<br />
 **Video Stream:** The continuous transmission of video data over the internet or a network, allowing real-time playback without needing to download the entire file.<br />
+
+### Input:  Webcam  
+
+### Output: 
+
+![Input for video processing](https://github.com/user-attachments/assets/4a99296a-b41e-45d5-a4ee-aeb5c789af87)
 
 
   #  ANNOTATIONS
 ## Libraries or Frame Works Used - opencv, labelimg <br />
 ## Version - 4.10.0.84 , version of labelImg - 1.8.6<br />
 ## Developed Logics -<br />
+
 ### A.data_segregate<br />
+
+  ### Input: ###
+  ### Output: ###
+
 ### B.label<br />
+
+  ### Input: ###
+  ### Output: ###
+
 ### C. label_manipulate<br />
+
+  ### Input: ###
+  ### Output: ###
 
 # Face_Recognition
   ## Libraries or Frame Works Used - opencv, labelimg <br />
@@ -244,23 +306,92 @@
   ## datetime == 5.5 <br />
   ## imutils == 0.5.4 <br />
  #    Developed Logics -__ 
+  
   ### A.attendence<br />
+
+  ### Input: ###
+  ### Output: ###
+  
   ### B. Face_Recog<br />
+
+  ### Input: ###
+  ### Output: ###
+  
   ### C. Test 1<br />
+
+  ### Input: ###
+  ### Output: ###
+  
   ### D. Tools<br /> 
+
+  ### Input: ###
+  ### Output: ###
+  
   ### E. excel_sc<br />
+
+  ### Input: ###
+  ### Output: ###
+  
   ### F. excel_sc_dt<br />
+
+  ### Input: ###
+  ### Output: ###
+  
+  
   ### G. attention_score<br />
+
+  ### Input: ###
+  ### Output: ###
+  
   ### H. avg_attention_score<br />
+
+  ### Input: ###
+  ### Output: ###
+  
   ### I. landmark<br />
-  ### J. Shiva_attendence_save<br /> 
+
+  ### Input: ###
+  ### Output: ###
+  
+  ### J. Shiva_attendence_save<br />
+  
+  ### Input: ###
+  ### Output: ###
+
   ### K. Shiva_face_recognition<br /> 
+
+  ### Input: ###
+  ### Output: ###
+
   ### L. Shiva_test<br />
+
+  ### Input: ###
+  ### Output: ###
+  
   ### M. Shiva_tools<br />
+  
+  ### Input: ###
+  ### Output: ###
+
   ### N. Shiva_excel_sc<br />
-  ### O. Shiva_excel_sc_dt<br /> 
+
+  ### Input: ###
+  ### Output: ###
+  
+  ### O. Shiva_excel_sc_dt<br />
+
+  ### Input: ###
+  ### Output: ###
+  
   ### P. Shiva_attention_score<br />
-  ### Q. Shiva_avg_attention_score__ 
+
+  ### Input: ###
+  ### Output: ###
+  
+  ### Q. Shiva_avg_attention_score<br />
+
+  ### Input: ###
+  ### Output: ###
   
   
 
