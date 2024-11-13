@@ -5,7 +5,7 @@
   ### A. Image_Noise removal & Closing Gaps<br />
   **Image Noise Removal:** The process of reducing random variations (noise) in an image to enhance clarity, often using filters.<br />
   
-  ![opening noise removal](https://github.com/user-attachments/assets/ed8a79f4-27c1-443c-b875-445c79b023ac) 
+  **Output:** ![opening noise removal](https://github.com/user-attachments/assets/ed8a79f4-27c1-443c-b875-445c79b023ac) 
 
   **Closing Gaps:** A morphological operation that fills small holes or gaps in an image to create more continuous and solid regions, typically applied after edge detection.<br />
   
@@ -40,7 +40,7 @@
   ![Image Crop](https://github.com/user-attachments/assets/6e049df3-c514-47f6-ab9b-cbf38c8b5126)
 
   
-  ### G. Image_Detectanderosion image<br />
+  ### G. Image_Detect and erosion image<br />
   **Image Detection and Erosion:** Image detection identifies specific features or objects, while erosion is a morphological operation that reduces boundaries in binary images, removing small noise and refining 
    edges.<br />
   
@@ -50,7 +50,7 @@
    ![detec  erosion_Image Eroded](https://github.com/user-attachments/assets/4510f48c-d371-4878-b2c8-34a2e1a14eb6)
 
    
-  ### H. Image_edgedetect image<br /> 
+  ### H. Image_edge detect image<br /> 
   **Image Edge Detection:** A technique used to identify and highlight the boundaries or edges within an image, helping to outline shapes and detect object contours.<br />
 
   ![Image_Edge detect](https://github.com/user-attachments/assets/eb572f4b-d2d1-41d8-b2a5-8603cd47229b)
@@ -83,7 +83,7 @@
   
   ![RGB TO GREY IMAGE](https://github.com/user-attachments/assets/4f8a32fc-02de-4c3c-8133-987b221537dc)
 
-  ### N. Image_singleimage image<br />
+  ### N. Image_single image <br />
   **Single Image:** An individual visual representation captured or created in digital form, typically consisting of pixels arranged in a grid.<br />
 
   ![Single Image](https://github.com/user-attachments/assets/66ec76ae-c750-4d8b-ac57-6f791ef5cc54)
