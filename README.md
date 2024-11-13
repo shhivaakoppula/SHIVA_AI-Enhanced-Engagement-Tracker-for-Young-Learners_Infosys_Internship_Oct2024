@@ -5,7 +5,8 @@
   ### A. Image_Noise removal & Closing Gaps<br />
   **Image Noise Removal:** The process of reducing random variations (noise) in an image to enhance clarity, often using filters.<br />
   
-  **Output:** ![opening noise removal](https://github.com/user-attachments/assets/ed8a79f4-27c1-443c-b875-445c79b023ac) 
+  **Output:**
+  ![opening noise removal](https://github.com/user-attachments/assets/ed8a79f4-27c1-443c-b875-445c79b023ac) 
 
   **Closing Gaps:** A morphological operation that fills small holes or gaps in an image to create more continuous and solid regions, typically applied after edge detection.<br />
   
