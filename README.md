@@ -6,39 +6,93 @@
   **Image Noise Removal:** The process of reducing random variations (noise) in an image to enhance clarity, often using filters.<br />
   
   ![opening noise removal](https://github.com/user-attachments/assets/ed8a79f4-27c1-443c-b875-445c79b023ac) 
-  
-  ![closing fill gaps](https://github.com/user-attachments/assets/c2419a2a-348a-4ef0-bbd5-c68aff712c13)
 
   **Closing Gaps:** A morphological operation that fills small holes or gaps in an image to create more continuous and solid regions, typically applied after edge detection.<br />
+  
+  ![closing fill gaps](https://github.com/user-attachments/assets/12c93018-e335-416b-a282-e73b92b427ac)
+
   ### B. Image_Template image<br />
   **Image Template:** A predefined pattern or sample image used in template matching to identify or locate specific features within a target image.<br />
+
+  ![Detected Template](https://github.com/user-attachments/assets/b333c2f9-669f-47ea-b251-bb39cd1bc267)
+
   ### C. Image_Colour image <br /> 
   **Color Image:** An image composed of multiple color channels (typically red, green, and blue), allowing it to display a wide spectrum of colors.<br />
+   
+   ![Image Colour](https://github.com/user-attachments/assets/109961c7-61f4-4bba-974c-cad3502c1aec)
+
   ### D. Image_Concatenation image <br />
   **Image Concatenation:** The process of joining multiple images side-by-side or on top of each other to create a single combined image.<br />
+  
+  ![Horizontal Concatenation](https://github.com/user-attachments/assets/09877f86-41df-4cfb-9b25-5eb373cb2b0e)
+
+  ![Vertical Concatenation](https://github.com/user-attachments/assets/c80f48b6-af1a-472e-ad46-23cb1201b7b4)
+
+  
   ### E. Image_Contour image<br />
   **Image Contour:** The outline or boundary of objects within an image, detected to identify shapes and regions based on differences in color or intensity.<br />
+  
+  ![Image Contour](https://github.com/user-attachments/assets/7a7755c1-abaf-4055-96e7-581194b56ac3)
+
   ### F. Image_Crop image<br />
   **Image Crop:** The process of trimming or cutting out a specific portion of an image to focus on a particular area or remove unwanted sections.<br />
+  
+  ![Image Crop](https://github.com/user-attachments/assets/6e049df3-c514-47f6-ab9b-cbf38c8b5126)
+
+  
   ### G. Image_Detectanderosion image<br />
   **Image Detection and Erosion:** Image detection identifies specific features or objects, while erosion is a morphological operation that reduces boundaries in binary images, removing small noise and refining 
    edges.<br />
+  
+  ![detec  erosion_Image Dilated](https://github.com/user-attachments/assets/2e32752e-86e9-4cb6-960c-09da8231deac)
+
+  
+   ![detec  erosion_Image Eroded](https://github.com/user-attachments/assets/4510f48c-d371-4878-b2c8-34a2e1a14eb6)
+
+   
   ### H. Image_edgedetect image<br /> 
   **Image Edge Detection:** A technique used to identify and highlight the boundaries or edges within an image, helping to outline shapes and detect object contours.<br />
+
+  ![Image_Edge detect](https://github.com/user-attachments/assets/eb572f4b-d2d1-41d8-b2a5-8603cd47229b)
+
   ### I. Image_euqalized image<br />
   **Image Equalization:** The process of adjusting the intensity distribution in an image to enhance contrast, making details more visible across different lighting conditions.<br />
+
+  ![Equalized Image](https://github.com/user-attachments/assets/30ecb5bf-e114-46d5-a8a8-386593386a78)
+
   ### J. Image_hsv image<br />
   **Image HSV:** An image representation in the Hue, Saturation, and Value color space, which separates color information (hue) from intensity (value), offering a more intuitive way to manipulate colors.<br />
+
+  ![Image_HSV](https://github.com/user-attachments/assets/7f6af072-c264-4428-82d0-e79c0b00d00c)
+
   ### K. Image_morph image<br />
   **Image Morphing:** A technique that transforms one image into another by gradually changing its features, often used in animation or to blend shapes and textures.<br />
+
+  ![Morph_Closing_fill_gaps](https://github.com/user-attachments/assets/d6d5c1e2-c1d3-4f79-9ce0-bec98b8a21f7)
+
+  ![Morph_Opening](https://github.com/user-attachments/assets/7da453e0-e8fe-4e8a-881a-2a1b79857aad)
+
+
   ### L. Image_resize image<br />
   **Image Resize:** The process of changing the dimensions of an image by scaling it up or down while maintaining or altering its aspect ratio.<br />
+
+  ![Image Resize](https://github.com/user-attachments/assets/fce45fe3-1627-4f16-9e06-2f905d0cbbb3)
+
   ### M. Image_rgb to grey image<br />
   **Image RGB to Grey:** The process of converting a colored image (RGB) to grayscale by averaging or weighted summing the red, green, and blue channels to produce a single intensity value.<br />
+  
+  ![RGB TO GREY IMAGE](https://github.com/user-attachments/assets/4f8a32fc-02de-4c3c-8133-987b221537dc)
+
   ### N. Image_singleimage image<br />
   **Single Image:** An individual visual representation captured or created in digital form, typically consisting of pixels arranged in a grid.<br />
+
+  ![Single Image](https://github.com/user-attachments/assets/66ec76ae-c750-4d8b-ac57-6f791ef5cc54)
+
   ### O. Image_blur image<br />
   **Image Blur:** The process of smoothing an image by reducing sharp edges and details, often using filters like Gaussian blur to create a softer appearance.<br />
+
+  ![Image Blur](https://github.com/user-attachments/assets/e57cc0ca-7864-42e5-a937-8fd18f346bc7)
+
 
 
    #  Video Processing
