@@ -296,6 +296,7 @@
 
 
 
+ 
   #  ANNOTATIONS
 ## Libraries or Frame Works Used - opencv, labelimg <br />
 ## Version - 4.10.0.84 , version of labelImg - 1.8.6<br />
@@ -303,18 +304,32 @@
 
 ### A.data_segregate<br />
 
-  ### Input: ###
-  ### Output: ###
+## Image and Label Segregation Script
+This script organizes images based on their corresponding label files. It segregates matched image-label pairs into a `matched` directory and places unmatched images into an `unmatched` directory. The script supports custom file extensions and automatically creates directories if they don’t exist.<br />
+
+  ### Input:
+  ### Output: 
 
 ### B.label<br />
 
-  ### Input: ###
-  ### Output: ###
+## Bounding Box Drawer for Images
+
+This script reads images and their corresponding label files, draws bounding boxes around detected objects based on label coordinates, and saves the annotated images to an output directory. It handles label files in YOLO format, allowing for customization of file extensions and output location.
+
+  ### Input: 
+  ### Output: 
+
+  ![gun](https://github.com/user-attachments/assets/51df31c0-7813-4599-b40b-53f3c82a5a39)
+
 
 ### C. label_manipulate<br />
 
-  ### Input: ###
-  ### Output: ###
+## Class Number Updater for Label Files
+
+This script updates class IDs in label files, replacing a specified old class ID with a new class ID. It reads each label file, modifies the class ID as needed, and saves the changes back to the file, handling any malformed entries gracefully. This tool is useful for batch updating class labels in YOLO-format datasets.
+
+  ### Input: 
+  ### Output: 
 
 # Face_Recognition
   ## Libraries or Frame Works Used - opencv, labelimg <br />
