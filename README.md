@@ -343,90 +343,154 @@ This script updates class IDs in label files, replacing a specified old class ID
  #    Developed Logics -__ 
   
   ### A.attendence<br />
+  **This project uses Python, OpenCV, and `face_recognition` to identify Barack Obama in a live video feed or video file. Recognized instances are marked in real time, and details (name, date, and time) are logged in an Excel file after every five successful recognitions. The application displays results in a video window and saves the log automatically.** <br /> 
 
-  ### Input: ###
-  ### Output: ###
+  ### Input: Image of Barak Obama & Video
+  
+  ![Barak Obama](https://github.com/user-attachments/assets/a62c20bf-5d9d-4fc2-a16f-8db9f507e7c9)
+
+  ### Output: 
+  
+  ![Screenshot 2024-11-13 221520](https://github.com/user-attachments/assets/9e7eebc6-0b86-4915-9e3c-ae54c43b5afd)
+
   
   ### B. Face_Recog<br />
 
-  ### Input: ###
-  ### Output: ###
+  **This project uses Python, OpenCV, and `face_recognition` to detect and identify Barack Obama in a live video feed or video file. If the face matches the known image, it is labeled with "Barack Obama"; 
+  otherwise, it displays "Not Barack Obama." The application runs in real time and displays the results in a video window.** <br />
+
+  ### Input: Image of Barak Obama & Video
+
+  ![Barak Obama](https://github.com/user-attachments/assets/a62c20bf-5d9d-4fc2-a16f-8db9f507e7c9)
+
+  ### Output: 
   
   ### C. Test 1<br />
 
-  ### Input: ###
-  ### Output: ###
+  ### Input: Image of Barak Obama & Video
+
+  ![Barak Obama](https://github.com/user-attachments/assets/a62c20bf-5d9d-4fc2-a16f-8db9f507e7c9)
+  
+  ### Output: 
   
   ### D. Tools<br /> 
 
-  ### Input: ###
-  ### Output: ###
+  ### Input: Image of Barak Obama & Video
+  
+  ![Barak Obama](https://github.com/user-attachments/assets/a62c20bf-5d9d-4fc2-a16f-8db9f507e7c9)
+  
+  ### Output: 
   
   ### E. excel_sc<br />
 
-  ### Input: ###
-  ### Output: ###
+  ### Input: Image of Barak Obama & Video
+
+  ![Barak Obama](https://github.com/user-attachments/assets/a62c20bf-5d9d-4fc2-a16f-8db9f507e7c9)
+  
+  ### Output: 
+
+  ![Barack_Obama_2024-11-01_17-40-57](https://github.com/user-attachments/assets/e5a95ec2-b43a-4fd0-a80f-7f6a5f72a080)
+
+  
+  ![Screenshot 2024-11-13 223406](https://github.com/user-attachments/assets/80b26e02-f0dc-4a41-8860-112a1a8aa438)
+
+
   
   ### F. excel_sc_dt<br />
 
-  ### Input: ###
-  ### Output: ###
+  ### Input: Image of Barak Obama & Video
+
+  ![Barak Obama](https://github.com/user-attachments/assets/a62c20bf-5d9d-4fc2-a16f-8db9f507e7c9)
   
+  ### Output: 
+  
+  ![Barack_Obama_2024-11-01_18-16-03](https://github.com/user-attachments/assets/56410d62-d9d5-4d90-9f49-13b3ed03651e)
+
+  
+  ![Screenshot 2024-11-13 223253](https://github.com/user-attachments/assets/3f072c93-1bdf-4c28-82aa-bdd48fe8386a)
+
+
   
   ### G. attention_score<br />
 
-  ### Input: ###
-  ### Output: ###
+  ### Input: Image of Barak Obama & Video
   
+  ![Barak Obama](https://github.com/user-attachments/assets/a62c20bf-5d9d-4fc2-a16f-8db9f507e7c9)
+  
+  ### Output: 
+  
+  ![Screenshot 2024-11-13 223041](https://github.com/user-attachments/assets/ddaea8f4-0b8c-44c8-b896-f0c58d4dac92)
+
+  
+  ![Barack Obama_2024-11-06_17-05-00](https://github.com/user-attachments/assets/c7ce1a24-43d1-4c9e-82d6-a67f42d39796)
+
+
   ### H. avg_attention_score<br />
 
-  ### Input: ###
-  ### Output: ###
+  ### Input: Image of Barak Obama & Video
+
+  ![Barak Obama](https://github.com/user-attachments/assets/a62c20bf-5d9d-4fc2-a16f-8db9f507e7c9)
   
+  ### Output: 
+  
+  ![Barack Obama_2024-11-06_17-13-08](https://github.com/user-attachments/assets/4d0d6230-96fc-4c9e-bde2-8cd7f2c37354)
+
+  
+  ![Screenshot 2024-11-13 222947](https://github.com/user-attachments/assets/2dfdbb18-c8e0-493d-b7f6-8f815a50b193)
+
+
   ### I. landmark<br />
 
-  ### Input: ###
-  ### Output: ###
+  ### Input: Image of Barak Obama & Video
+
+  ![Barak Obama](https://github.com/user-attachments/assets/a62c20bf-5d9d-4fc2-a16f-8db9f507e7c9)
   
+  ### Output:
+  
+  ![Screenshot 2024-11-13 222617](https://github.com/user-attachments/assets/af59998c-d478-44f9-bb85-b9b69b6f7cd7)
+
+  ![Barack Obama_2024-11-06_16-51-53](https://github.com/user-attachments/assets/26e25494-aefa-45b2-8972-0ab91a40ef37)
+
+
   ### J. Shiva_attendence_save<br />
   
-  ### Input: ###
-  ### Output: ###
+  ### Input: Image of Shiva & live video through webcam
+  ### Output: 
 
   ### K. Shiva_face_recognition<br /> 
 
-  ### Input: ###
-  ### Output: ###
+  ### Input: Image of Shiva & live video through webcam
+  ### Output: 
 
   ### L. Shiva_test<br />
 
-  ### Input: ###
-  ### Output: ###
+  ### Input: Image of Shiva & live video through webcam
+  ### Output: 
   
   ### M. Shiva_tools<br />
   
-  ### Input: ###
-  ### Output: ###
+  ### Input: Image of Shiva & live video through webcam
+  ### Output: 
 
   ### N. Shiva_excel_sc<br />
 
-  ### Input: ###
-  ### Output: ###
+  ### Input: Image of Shiva & live video through webcam
+  ### Output: 
   
   ### O. Shiva_excel_sc_dt<br />
 
-  ### Input: ###
-  ### Output: ###
+  ### Input: Image of Shiva & live video through webcam
+  ### Output: 
   
   ### P. Shiva_attention_score<br />
 
-  ### Input: ###
-  ### Output: ###
+  ### Input: Image of Shiva & live video through webcam
+  ### Output:
   
   ### Q. Shiva_avg_attention_score<br />
 
-  ### Input: ###
-  ### Output: ###
+  ### Input: Image of Shiva & live video through webcam
+  ### Output: 
   
   
 
