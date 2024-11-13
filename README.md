@@ -4,6 +4,10 @@
 ## Developed Logics -<br />
   ### A. Image_Noise removal & Closing Gaps<br />
   **Image Noise Removal:** The process of reducing random variations (noise) in an image to enhance clarity, often using filters.<br />
+  ![opening noise removal](https://github.com/user-attachments/assets/ed8a79f4-27c1-443c-b875-445c79b023ac) 
+  
+  ![closing fill gaps](https://github.com/user-attachments/assets/c2419a2a-348a-4ef0-bbd5-c68aff712c13)
+
   **Closing Gaps:** A morphological operation that fills small holes or gaps in an image to create more continuous and solid regions, typically applied after edge detection.<br />
   ### B. Image_Template image<br />
   **Image Template:** A predefined pattern or sample image used in template matching to identify or locate specific features within a target image.<br />
