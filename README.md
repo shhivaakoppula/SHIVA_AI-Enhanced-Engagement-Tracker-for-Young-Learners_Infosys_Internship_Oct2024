@@ -4,6 +4,11 @@
 ## Developed Logics -<br />
   ### A. Image_Noise removal & Closing Gaps<br />
   **Image Noise Removal:** The process of reducing random variations (noise) in an image to enhance clarity, often using filters.<br />
+
+  **Input:**
+
+  ![chikkie](https://github.com/user-attachments/assets/87a2b9e0-0353-4dab-9fa5-e83454f311f5)
+
   
   **Output:**
   
