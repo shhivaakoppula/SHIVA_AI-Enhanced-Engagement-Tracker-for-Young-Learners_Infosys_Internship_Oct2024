@@ -84,8 +84,9 @@
 
    ### Input & Output:
 
-   ![OUTPUT  OF DIALTED   ERODED IMAGE](https://github.com/user-attachments/assets/ef9ae82e-6dbb-4b24-a322-10cb3132ce5c)
    
+   ![OUTPUT  OF DIALTED   ERODED IMAGE](https://github.com/user-attachments/assets/56a68c89-2f5f-4605-8a8c-67ed6a554cc9)
+
 
    
   ### H. Image_edge detect image<br /> 
