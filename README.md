@@ -197,11 +197,9 @@
 
 ### Input: Webcam 
 
-![Input Video Processing for fps](https://github.com/user-attachments/assets/28c36f69-3dc1-4ed5-91e5-cb058694617f)
+
 
 ### Output:
-
-![Screenshot 2024-11-13 192000](https://github.com/user-attachments/assets/e439ebb0-fe2e-4ad5-aa9f-66a1f0b718e3)
 
 
 ### C. Video_save<br />
@@ -210,11 +208,10 @@
 
 ### Input:  Webcam  
 
- ![Input for video processing](https://github.com/user-attachments/assets/d50094c1-e987-49df-adc7-be8369fe424a)
+ 
 
 ### Output:
 
-![Screenshot 2024-11-13 192000](https://github.com/user-attachments/assets/e439ebb0-fe2e-4ad5-aa9f-66a1f0b718e3)
 
 
 ### D. Video_stackingh<br />
@@ -223,11 +220,10 @@
 
 ### Input:  Webcam  
 
-![Input for video processing](https://github.com/user-attachments/assets/bf6ee5bc-bc2d-4f02-b5ff-177754372ff5)
+
 
 ### Output:
 
-![Screenshot 2024-11-13 192000](https://github.com/user-attachments/assets/e439ebb0-fe2e-4ad5-aa9f-66a1f0b718e3)
 
 
 ### E. Video_stackingv<br />
@@ -236,11 +232,9 @@
 
 ### Input:  Webcam 
 
-![Input for video processing](https://github.com/user-attachments/assets/3c08d93e-59c1-46ab-a50c-ff88cd5e25bd)
 
 ### Output:
 
-![Screenshot 2024-11-13 192000](https://github.com/user-attachments/assets/e439ebb0-fe2e-4ad5-aa9f-66a1f0b718e3)
 
 
 ### F. Video_stream<br />
@@ -248,11 +242,8 @@
 
 ### Input:  Webcam   
 
-![Input for video processing](https://github.com/user-attachments/assets/4a99296a-b41e-45d5-a4ee-aeb5c789af87)
 
 ### Output:
-
-![Screenshot 2024-11-13 192000](https://github.com/user-attachments/assets/e439ebb0-fe2e-4ad5-aa9f-66a1f0b718e3)
 
 
 
