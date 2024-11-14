@@ -9,6 +9,8 @@
   ### Input & Output
 
   
+  ![INPUT   Output  of noise removal closing gaps](https://github.com/user-attachments/assets/788d2b04-8fd6-49e0-b616-10a7817925c9)
+
 
   
   
@@ -16,81 +18,63 @@
 
   **Closing Gaps:** A morphological operation that fills small holes or gaps in an image to create more continuous and solid regions, typically applied after edge detection.<br />
 
-  ### Input:
+  ### Input  & Output:
 
-  ![chikkie](https://github.com/user-attachments/assets/87a2b9e0-0353-4dab-9fa5-e83454f311f5)
+   ![INPUT   Output  of noise removal closing gaps](https://github.com/user-attachments/assets/788d2b04-8fd6-49e0-b616-10a7817925c9)
 
-  
-  ### Output:
-  
-  ![closing fill gaps](https://github.com/user-attachments/assets/12c93018-e335-416b-a282-e73b92b427ac)
+
 
   ### B. Image_Template image<br />
   **Image Template:** A predefined pattern or sample image used in template matching to identify or locate specific features within a target image.<br />
 
-  ### Input:
-
-  ![chikkie](https://github.com/user-attachments/assets/87a2b9e0-0353-4dab-9fa5-e83454f311f5)
+  ### Input & Output:
 
   
-  ### Output:
+  ![IMAGE TEMPLATE OUPUT](https://github.com/user-attachments/assets/1f6e3681-109d-4523-a685-6a396767d52c)
 
-  ![Detected Template](https://github.com/user-attachments/assets/b333c2f9-669f-47ea-b251-bb39cd1bc267)
+ 
 
   ### C. Image_Colour image <br /> 
   **Color Image:** An image composed of multiple color channels (typically red, green, and blue), allowing it to display a wide spectrum of colors.<br />
 
-  ### Input:
+  ### Input & Output::
 
-  ![chikkie](https://github.com/user-attachments/assets/87a2b9e0-0353-4dab-9fa5-e83454f311f5)
+  ![OUTPUT OF IMAGE](https://github.com/user-attachments/assets/2a1ab42d-e187-4ba8-970e-bb91e09558f0)
 
-  
-  ### Output:
-   
-   ![Image Colour](https://github.com/user-attachments/assets/109961c7-61f4-4bba-974c-cad3502c1aec)
 
   ### D. Image_Concatenation image <br />
   
   **Image Concatenation:** The process of joining multiple images side-by-side or on top of each other to create a single combined image.<br />
 
-  ### Input:
+  ### Input & Output:
 
-  ![chikkie](https://github.com/user-attachments/assets/87a2b9e0-0353-4dab-9fa5-e83454f311f5)    ![shiva](https://github.com/user-attachments/assets/94c78d21-7a3f-4ebd-a5b0-7484822762a4)
-
+  ![INPUT   OUTPUT OF HORIZONTAL CONCATENATION](https://github.com/user-attachments/assets/d0a5e400-91ef-4d4f-a057-875fdc0238da)
 
   
-  ### Output:
   
-  ![Horizontal Concatenation](https://github.com/user-attachments/assets/09877f86-41df-4cfb-9b25-5eb373cb2b0e)
+  ![Input   output for vertical concatenation](https://github.com/user-attachments/assets/d26b8d43-dc27-4fc7-88b5-c952c1c68d3c)
 
-  ![Vertical Concatenation](https://github.com/user-attachments/assets/c80f48b6-af1a-472e-ad46-23cb1201b7b4)
+
 
   
   ### E. Image_Contour image<br />
   
   **Image Contour:** The outline or boundary of objects within an image, detected to identify shapes and regions based on differences in color or intensity.<br />
 
-  ### Input:
+  ### Input & Output:
 
-  ![chikkie](https://github.com/user-attachments/assets/87a2b9e0-0353-4dab-9fa5-e83454f311f5)
-
+  ![INPUT   OUPUT CONTOUR IMAGE](https://github.com/user-attachments/assets/667b15fa-3638-4fd5-90b2-34cfbd389426)
   
-  ### Output:
-  
-  ![Image Contour](https://github.com/user-attachments/assets/7a7755c1-abaf-4055-96e7-581194b56ac3)
 
   ### F. Image_Crop image<br />
   
   **Image Crop:** The process of trimming or cutting out a specific portion of an image to focus on a particular area or remove unwanted sections.<br />
 
-  ### Input:
-
-  ![chikkie](https://github.com/user-attachments/assets/87a2b9e0-0353-4dab-9fa5-e83454f311f5)
+  ### Input & Output:
 
   
-  ### Output:
+  ![INPUT   OUTPUT  IMAGE CROP](https://github.com/user-attachments/assets/47b7bea4-490e-435d-86e6-b151a3e753c8)
   
-  ![Image Crop](https://github.com/user-attachments/assets/6e049df3-c514-47f6-ab9b-cbf38c8b5126)
 
   
   ### G. Image_Detect and erosion image<br />
@@ -98,120 +82,94 @@
   **Image Detection and Erosion:** Image detection identifies specific features or objects, while erosion is a morphological operation that reduces boundaries in binary images, removing small noise and refining 
    edges.<br />
 
-   ### Input:
+   ### Input & Output:
 
-  ![chikkie](https://github.com/user-attachments/assets/87a2b9e0-0353-4dab-9fa5-e83454f311f5)
-
-  
-  ### Output:
-  
-  ![detec  erosion_Image Dilated](https://github.com/user-attachments/assets/2e32752e-86e9-4cb6-960c-09da8231deac)
-
-  
-   ![detec  erosion_Image Eroded](https://github.com/user-attachments/assets/4510f48c-d371-4878-b2c8-34a2e1a14eb6)
+   ![OUTPUT  OF DIALTED   ERODED IMAGE](https://github.com/user-attachments/assets/ef9ae82e-6dbb-4b24-a322-10cb3132ce5c)
+   
 
    
   ### H. Image_edge detect image<br /> 
   **Image Edge Detection:** A technique used to identify and highlight the boundaries or edges within an image, helping to outline shapes and detect object contours.<br />
 
-  ### Input:
-
-  ![chikkie](https://github.com/user-attachments/assets/87a2b9e0-0353-4dab-9fa5-e83454f311f5)
+  ### Input & Output:
 
   
-  ### Output:
+  ![INPUT   OUTPUT EDGE DETECT](https://github.com/user-attachments/assets/934135d9-adb6-489e-83a8-c2fe805ad8dc)
+  
 
-  ![Image_Edge detect](https://github.com/user-attachments/assets/eb572f4b-d2d1-41d8-b2a5-8603cd47229b)
 
   ### I. Image_euqalized image<br />
   **Image Equalization:** The process of adjusting the intensity distribution in an image to enhance contrast, making details more visible across different lighting conditions.<br />
 
-  ### Input:
+  ### Input & Output:
 
-  ![chikkie](https://github.com/user-attachments/assets/87a2b9e0-0353-4dab-9fa5-e83454f311f5)
-
+  ![INPUT   OUTPUT EQUALIZED IMAGE](https://github.com/user-attachments/assets/f6c67d8c-1a2a-4ddc-aabc-293a3c47bbd5)
   
-  ### Output:
-
-  ![Equalized Image](https://github.com/user-attachments/assets/30ecb5bf-e114-46d5-a8a8-386593386a78)
 
   ### J. Image_hsv image<br />
   
   **Image HSV:** An image representation in the Hue, Saturation, and Value color space, which separates color information (hue) from intensity (value), offering a more intuitive way to manipulate colors.<br />
 
-  ### Input:
-
-  ![chikkie](https://github.com/user-attachments/assets/87a2b9e0-0353-4dab-9fa5-e83454f311f5)
+  ### Input & Output:
 
   
-  ### Output:
+  ![INPUT   OUTPUT HSV](https://github.com/user-attachments/assets/cbacaf1b-0e3a-4599-82ca-9329dfb00a43)
+  
 
-  ![Image_HSV](https://github.com/user-attachments/assets/7f6af072-c264-4428-82d0-e79c0b00d00c)
 
   ### K. Image_morph image<br />
   
   **Image Morphing:** A technique that transforms one image into another by gradually changing its features, often used in animation or to blend shapes and textures.<br />
 
-  ### Input:
-
-  ![chikkie](https://github.com/user-attachments/assets/87a2b9e0-0353-4dab-9fa5-e83454f311f5)
+  ### Input & Output:
 
   
-  ### Output:
+  ![INPUT   OUTPUT MORPH IMAGE](https://github.com/user-attachments/assets/4a5b0559-c08e-464a-99e6-321353aea78b)
 
-  ![Morph_Closing_fill_gaps](https://github.com/user-attachments/assets/d6d5c1e2-c1d3-4f79-9ce0-bec98b8a21f7)
-
-  ![Morph_Opening](https://github.com/user-attachments/assets/7da453e0-e8fe-4e8a-881a-2a1b79857aad)
 
 
   ### L. Image_resize image<br />
   
   **Image Resize:** The process of changing the dimensions of an image by scaling it up or down while maintaining or altering its aspect ratio.<br />
 
-  ### Input:
+  ### Input & Output:
 
-  ![chikkie](https://github.com/user-attachments/assets/87a2b9e0-0353-4dab-9fa5-e83454f311f5)
+  ![INPUT   output image resize](https://github.com/user-attachments/assets/8b72a4b2-f9f5-45e6-b59c-23871b86793f)
 
-  
-  ### Output:
-
-  ![Image Resize](https://github.com/user-attachments/assets/fce45fe3-1627-4f16-9e06-2f905d0cbbb3)
 
   ### M. Image_rgb to grey image<br />
   **Image RGB to Grey:** The process of converting a colored image (RGB) to grayscale by averaging or weighted summing the red, green, and blue channels to produce a single intensity value.<br />
 
-  ### Input:
+  ### Input & Output:
 
-  ![chikkie](https://github.com/user-attachments/assets/87a2b9e0-0353-4dab-9fa5-e83454f311f5)
-
+  ![INPUT   output RGB to Grey image](https://github.com/user-attachments/assets/372d1325-3f6a-4eb7-b140-a1d41f5f0592)
   
-  ### Output:
-  
-  ![RGB TO GREY IMAGE](https://github.com/user-attachments/assets/4f8a32fc-02de-4c3c-8133-987b221537dc)
 
   ### N. Image_single image <br />
   **Single Image:** An individual visual representation captured or created in digital form, typically consisting of pixels arranged in a grid.<br />
 
-  ### Input:
+  ### Input & Output:
 
-  ![chikkie](https://github.com/user-attachments/assets/87a2b9e0-0353-4dab-9fa5-e83454f311f5)
-
+  ![INPUT   output Single Image](https://github.com/user-attachments/assets/530bb4a8-c9eb-47e4-a51b-2740544dd9fc)
   
-  ### Output:
-
-  ![Single Image](https://github.com/user-attachments/assets/66ec76ae-c750-4d8b-ac57-6f791ef5cc54)
 
   ### O. Image_blur image<br />
   **Image Blur:** The process of smoothing an image by reducing sharp edges and details, often using filters like Gaussian blur to create a softer appearance.<br />
 
-  ### Input:
+  ### Input & Output:
 
-  ![chikkie](https://github.com/user-attachments/assets/87a2b9e0-0353-4dab-9fa5-e83454f311f5)
+  ![INPUT   Output Blur Image](https://github.com/user-attachments/assets/9d4568a6-d57d-44d7-a7fa-d574a5ee1e71)
 
-  
-  ### Output:
+  ### P. Image_Rotated<br />
 
-  ![Image Blur](https://github.com/user-attachments/assets/e57cc0ca-7864-42e5-a937-8fd18f346bc7)
+  **Image_Rotated:** typically refers to an image that has been turned at an angle from its original orientation, either clockwise or counterclockwise. This transformation is often used for adjusting or aligning 
+  visuals to the desired viewpoint, especially when images are unintentionally tilted during capture. Rotation can be applied easily through image editing software, making it a common and straightforward 
+  adjustment in digital imaging.<br />
+
+   ### Input & Output:
+
+   ![INPUT   output of rotated image](https://github.com/user-attachments/assets/e31d0b25-b5d4-46cd-82d7-6e00e0971bcd)
+
 
 
 
