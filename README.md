@@ -176,6 +176,8 @@
 
 
    #  Video Processing
+   **Video processing involves manipulating and analyzing video data to improve quality, extract information, or enable specific functions like motion detection and object tracking. Techniques include frame-by- 
+     frame enhancement, compression, and filtering for smooth playback or real-time processing. It’s crucial in fields like surveillance, streaming, and augmented reality.** <br />
 ## Libraries or Frame Works Used - opencv <br />
 ## Version - 4.10.0.84 <br /> 
 ## Developed Logics - <br />
@@ -257,6 +259,9 @@
 
  
   #  ANNOTATIONS
+  **Annotations are additional labels or notes added to data, such as images or text, to provide context or highlight specific details. In machine learning, annotations are essential for supervised learning, 
+    where labeled data helps train models for tasks like object detection or sentiment analysis. They’re widely used in tasks like image tagging, document markup, and speech recognition to improve model 
+    accuracy.** <br />
 ## Libraries or Frame Works Used - opencv, labelimg <br />
 ## Version - 4.10.0.84 , version of labelImg - 1.8.6<br />
 ## Developed Logics -<br />
@@ -291,6 +296,9 @@ This script updates class IDs in label files, replacing a specified old class ID
   ### Output: 
 
 # Face_Recognition
+**Face recognition is a biometric technology that identifies or verifies individuals by analyzing facial features in images or video. It involves detecting a face, extracting unique features, and comparing them 
+  to a database for authentication or identification. Commonly used in security, smartphones, and social media, face recognition has applications in access control and personalized experiences.** <br />
+ 
   ## Libraries or Frame Works Used - opencv, labelimg <br />
   ## opencv-python == 4.10.0.84 <br />
   ## face_recognition == 1.3.0 <br /> 
