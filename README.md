@@ -408,7 +408,8 @@ This script updates class IDs in label files, replacing a specified old class ID
   ### Input & Output: 
   
 
-  ![EXCEL_SC_DATE](https://github.com/user-attachments/assets/6a1ec4cb-31c8-442a-97d9-42cff4f0fded)
+  ![INPUT (1)](https://github.com/user-attachments/assets/8be9d4ee-4e38-44ad-b05a-2ae4b3a343d1)
+
 
   
 
