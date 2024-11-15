@@ -210,11 +210,12 @@ https://github.com/user-attachments/assets/3698f3f6-5e9d-4bb0-ac3f-ff888fef85ce
 
 **Video Save:** The process of storing a video file in a specified format and location on a storage device for future access or playback.<br />
 
-### Input:  Webcam  
+### Input & Output:
 
  
+![INPUT (1)](https://github.com/user-attachments/assets/328168cb-68fe-4970-aa13-d786a8b2fac0)
 
-### Output:
+
 
 
 
@@ -222,11 +223,13 @@ https://github.com/user-attachments/assets/3698f3f6-5e9d-4bb0-ac3f-ff888fef85ce
 
 **Video Stacking Horizontal:** The process of arranging multiple video clips side-by-side in a single frame, creating a horizontal sequence for comparison or simultaneous viewing.<br />
 
-### Input:  Webcam  
+### Input & Output:
+ 
 
 
+![INPUT (3)](https://github.com/user-attachments/assets/4e49b32b-8572-4815-b190-ec4d81796d4c)
 
-### Output:
+
 
 
 
@@ -234,20 +237,24 @@ https://github.com/user-attachments/assets/3698f3f6-5e9d-4bb0-ac3f-ff888fef85ce
 
 **Video Stacking Vertical:** The process of arranging multiple video clips one above the other in a single frame, creating a vertical sequence for comparison or simultaneous viewing.<br />
 
-### Input:  Webcam 
+### Input & Output:
 
 
-### Output:
+![INPUT (2)](https://github.com/user-attachments/assets/84cd2a82-f1ac-457a-8509-c4952d80e66a)
+
 
 
 
 ### F. Video_stream<br />
 **Video Stream:** The continuous transmission of video data over the internet or a network, allowing real-time playback without needing to download the entire file.<br />
 
-### Input:  Webcam   
+### Input & Output:
 
 
-### Output:
+
+![INPUT](https://github.com/user-attachments/assets/f1eb8340-cff1-4a77-8769-202aa95e004a)
+
+
 
 
 
