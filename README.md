@@ -1,3 +1,12 @@
+# AI Enhanced Engagement Tracker
+
+## Overview :
+
+AI Enhanced Engagement Tracker is an intelligent system designed to monitor and analyze user engagement levels in real-time. By leveraging AI and data analytics, it provides actionable insights to enhance productivity and interaction. This tool is ideal for educators, marketers, and workplace managers seeking to optimize engagement strategies.<br />
+
+
+
+
 #    Image Processing : 
 **Image processing involves techniques for analyzing, enhancing, and transforming images to extract useful information or improve visual quality. This field encompasses tasks like noise reduction, image sharpening, segmentation, and object recognition. It's widely used in areas like medical imaging, computer vision, and multimedia applications.** <br />
 ## Libraries or Frame Works Used - opencv <br />
