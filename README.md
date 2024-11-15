@@ -303,49 +303,49 @@ This script updates class IDs in label files, replacing a specified old class ID
   ### Output: 
 
 # Face_Recognition
-**Face recognition is a biometric technology that identifies or verifies individuals by analyzing facial features in images or video. It involves detecting a face, extracting unique features, and comparing them 
-  to a database for authentication or identification. Commonly used in security, smartphones, and social media, face recognition has applications in access control and personalized experiences.** <br />
+- Face recognition is a biometric technology that identifies or verifies individuals by analyzing facial features in images or video. It involves detecting a face, extracting unique features, and comparing them 
+  to a database for authentication or identification. Commonly used in security, smartphones, and social media, face recognition has applications in access control and personalized experiences. <br />
  
   ## Libraries or Frame Works Used - opencv, labelimg <br />
   
   ## 1.opencv-python :
-  **Version== 4.10.0.84** <br />
+  - Version== 4.10.0.84 <br />
 
   **OpenCV (Open Source Computer Vision) is a popular library in Python for real-time computer vision applications. It provides tools for image processing, object detection, and facial recognition, and is widely 
     used in AI, robotics, and automation.** <br />
   
   ## 2.face_recognition : 
-  **Version == 1.3.0** <br /> 
+  - Version == 1.3.0 <br /> 
   
   **Face recognition is a biometric technique that identifies or verifies individuals by analyzing facial features from images or video. It uses algorithms to map facial landmarks and match 
   them to stored images. Common applications include security systems, identity verification, and social media tagging.** <br />
  
   ## 3.dlib :
-  **Version == 19.24.6** <br />
+  - Version == 19.24.6 <br />
 
   **Dlib is a machine learning library that includes tools for facial recognition, image processing, and more. It’s known for its robust facial landmark detector and is widely used in applications requiring face 
     detection and alignment.** <br />
   
   ## 4.pandas : 
-  **Version ==  2.2.3** <br />
+  - Version ==  2.2.3 <br />
 
   **Pandas is a data manipulation library in Python, commonly used for data analysis and manipulation of structured data. It provides DataFrame and Series objects, which make it easy to clean, explore, and 
     transform data for various analytics tasks.** <br />
   
   ## 5.numpy :
-  **Version == 2.1.2** <br />
+  - Version == 2.1.2 <br />
 
    **NumPy is a powerful Python library for numerical computing, providing support for large, multidimensional arrays and matrices. It enables efficient mathematical operations and forms the foundation for many 
      data science and machine learning libraries.** <br />
   
   ## 6.datetime :
-  **Version == 5.5** <br />
+  - Version == 5.5 <br />
 
   **The Date and Time modules in Python allow for handling date and time data, enabling tasks like timestamping, scheduling, and time zone conversions. These are essential in data logging, event tracking, and 
   time- based analysis.**  <br />
   
   ## 7.imutils :
-  **Version == 0.5.4** <br />
+  - Version == 0.5.4 <br />
 
   **Imutils is a Python library that simplifies image processing tasks using OpenCV, like resizing, rotating, and cropping images. It provides convenience functions that make it easier to implement standard 
     image transformations and manipulations.** <br />
@@ -354,7 +354,8 @@ This script updates class IDs in label files, replacing a specified old class ID
  #    Developed Logics -__ 
   
   ### A.attendence<br />
-  **This project uses Python, OpenCV, and `face_recognition` to identify Barack Obama in a live video feed or video file. Recognized instances are marked in real time, and details (name, date, and time) are logged in an Excel file after every five successful recognitions. The application displays results in a video window and saves the log automatically.** <br /> 
+  **This project uses Python, OpenCV, and `face_recognition` to identify Barack Obama in a live video feed or video file. Recognized instances are marked in real time, and details (name, date, and time) are 
+     logged in an Excel file after every five successful recognitions. The application displays results in a video window and saves the log automatically.** <br /> 
 
   ### Input: Image of Barak Obama & Video
   
