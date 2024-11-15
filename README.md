@@ -275,34 +275,31 @@ https://github.com/user-attachments/assets/3698f3f6-5e9d-4bb0-ac3f-ff888fef85ce
 
 ### A.data_segregate<br />
 
-## Image and Label Segregation Script
-This script organizes images based on their corresponding label files. It segregates matched image-label pairs into a `matched` directory and places unmatched images into an `unmatched` directory. The script supports custom file extensions and automatically creates directories if they don’t exist.<br />
-
-  ### Input:
-  ### Output: 
+**Image and Label Segregation Script**
+This script organizes images based on their corresponding label files. It segregates matched image-label pairs into a `matched` directory and places unmatched images into an `unmatched` directory. The script supports custom file extensions and automatically creates directories if they don’t exist.<br /> 
 
 ### B.label<br />
 
-## Bounding Box Drawer for Images
-
+**Bounding Box Drawer for Images**
 This script reads images and their corresponding label files, draws bounding boxes around detected objects based on label coordinates, and saves the annotated images to an output directory. It handles label files in YOLO format, allowing for customization of file extensions and output location.
 
-  ### Input: 
-  ### Output: 
 
-  ![gun](https://github.com/user-attachments/assets/51df31c0-7813-4599-b40b-53f3c82a5a39)
+
+![gun](https://github.com/user-attachments/assets/51df31c0-7813-4599-b40b-53f3c82a5a39)
 
 
 ### C. label_manipulate<br />
 
-## Class Number Updater for Label Files
-
+**Class Number Updater for Label Files**
 This script updates class IDs in label files, replacing a specified old class ID with a new class ID. It reads each label file, modifies the class ID as needed, and saves the changes back to the file, handling any malformed entries gracefully. This tool is useful for batch updating class labels in YOLO-format datasets.
 
-  ### Input: 
-  ### Output: 
+### D. label_Image.txt<br />
+ 
+![Screenshot 2024-11-15 142323](https://github.com/user-attachments/assets/847633f0-1c88-45cf-a189-321932207a3f)
 
-# Face_Recognition
+
+
+# Face_Recognition 
 - Face recognition is a biometric technology that identifies or verifies individuals by analyzing facial features in images or video. It involves detecting a face, extracting unique features, and comparing them 
   to a database for authentication or identification. Commonly used in security, smartphones, and social media, face recognition has applications in access control and personalized experiences. <br />
  
@@ -352,185 +349,128 @@ This script updates class IDs in label files, replacing a specified old class ID
  
  
  #    Developed Logics -__ 
+
+#    Face Recognition - Barak Obama
   
-  ### A.attendence<br />
+  ### 1.attendence<br />
+  
   **This project uses Python, OpenCV, and `face_recognition` to identify Barack Obama in a live video feed or video file. Recognized instances are marked in real time, and details (name, date, and time) are 
      logged in an Excel file after every five successful recognitions. The application displays results in a video window and saves the log automatically.** <br /> 
 
-  ### Input: Image of Barak Obama & Video
-  
-  ![Barak Obama](https://github.com/user-attachments/assets/a62c20bf-5d9d-4fc2-a16f-8db9f507e7c9)
-
-  ### Output: 
+  ### Input & Output: 
   
   ![Screenshot 2024-11-13 221520](https://github.com/user-attachments/assets/9e7eebc6-0b86-4915-9e3c-ae54c43b5afd)
 
   
-  ### B. Face_Recog<br />
+  ### 2. Face_Recog<br />
 
   **This project uses Python, OpenCV, and `face_recognition` to detect and identify Barack Obama in a live video feed or video file. If the face matches the known image, it is labeled with "Barack Obama"; 
   otherwise, it displays "Not Barack Obama." The application runs in real time and displays the results in a video window.** <br />
 
-  ### Input: Image of Barak Obama & Video
-
-  ![Barak Obama](https://github.com/user-attachments/assets/a62c20bf-5d9d-4fc2-a16f-8db9f507e7c9)
-
-  ### Output: 
+  ### Input & Output: 
   
-  ### C. Test 1<br />
+  ### 3. Test 1<br />
 
   **This script performs real-time face recognition using OpenCV and `face_recognition` on a video feed. It detects faces, compares them to a known image of Barack Obama, and logs the recognition date and time 
     in a DataFrame. If recognized, it annotates the video feed with labels, periodically saving the data to an Excel file.** <br />
 
-  ### Input: Image of Barak Obama & Video
-
-  ![Barak Obama](https://github.com/user-attachments/assets/a62c20bf-5d9d-4fc2-a16f-8db9f507e7c9)
+  ### Input & Output: 
   
-  ### Output: 
-  
-  ### D. Tools<br /> 
+  ### 4. Tools<br /> 
 
   **This Python script uses OpenCV and `face_recognition` to perform face recognition on a video feed, identifying a known image of Barack Obama. It tracks and annotates recognized faces in real time, logging 
    the recognition time and date to an Excel file once a threshold of five recognitions is met. Users can end the video stream by pressing "q," and a final log save occurs upon exit.** <br /> 
 
-  ### Input: Image of Barak Obama & Video
+  ### Input & Output: 
   
-  ![Barak Obama](https://github.com/user-attachments/assets/a62c20bf-5d9d-4fc2-a16f-8db9f507e7c9)
-  
-  ### Output: 
-  
-  ### E. excel_sc<br />
+  ### 5. excel_sc<br />
 
   **This Python script performs real-time face recognition using OpenCV and `face_recognition`, comparing detected faces in a video feed to a known image of Barack Obama. It logs recognized faces with timestamps 
     and saves screenshots for each recognition at regular intervals, outputting all data to an Excel file with paths to the saved images. The program ends and saves the data upon pressing "q" or if the video 
     feed ends.** <br />
 
-  ### Input: Image of Barak Obama & Video
-
-  ![Barak Obama](https://github.com/user-attachments/assets/a62c20bf-5d9d-4fc2-a16f-8db9f507e7c9)
-  
-  ### Output: 
-
-  ![Barack_Obama_2024-11-01_17-40-57](https://github.com/user-attachments/assets/e5a95ec2-b43a-4fd0-a80f-7f6a5f72a080)
+  ### Input & Output: 
 
   
-  ![Screenshot 2024-11-13 223406](https://github.com/user-attachments/assets/80b26e02-f0dc-4a41-8860-112a1a8aa438)
-
 
   
-  ### F. excel_sc_dt<br />
+  ### 6. excel_sc_dt<br />
 
   **This Python script captures real-time face recognition using OpenCV and `face_recognition` to identify Barack Obama in a video feed, logging each recognition with timestamps and saving annotated screenshots. 
     Recognitions are recorded every two minutes, and a new log entry with a screenshot is created every five minutes. The data, including screenshot paths, is saved to an Excel file upon program exit or by 
     pressing "q."** <br />
 
-  ### Input: Image of Barak Obama & Video
-
-  ![Barak Obama](https://github.com/user-attachments/assets/a62c20bf-5d9d-4fc2-a16f-8db9f507e7c9)
+  ### Input & Output: 
   
-  ### Output: 
-  
-  ![Barack_Obama_2024-11-01_18-16-03](https://github.com/user-attachments/assets/56410d62-d9d5-4d90-9f49-13b3ed03651e)
-
-  
-  ![Screenshot 2024-11-13 223253](https://github.com/user-attachments/assets/3f072c93-1bdf-4c28-82aa-bdd48fe8386a)
 
 
   
-  ### G. attention_score<br />
+  ### 7. attention_score<br />
 
   **This Python script performs real-time face recognition and attentiveness analysis on a video feed, identifying Barack Obama and calculating an attentiveness score based on head pose (yaw and pitch). 
     Screenshots are captured and saved when the individual is attentive, with recognition events and attention scores logged in an Excel file. The application uses OpenCV, `face_recognition`, and dlib for 
     facial detection and landmark analysis.** <br />
 
-  ### Input: Image of Barak Obama & Video
+  ### Input & Output: 
   
-  ![Barak Obama](https://github.com/user-attachments/assets/a62c20bf-5d9d-4fc2-a16f-8db9f507e7c9)
-  
-  ### Output: 
-  
-  ![Screenshot 2024-11-13 223041](https://github.com/user-attachments/assets/ddaea8f4-0b8c-44c8-b896-f0c58d4dac92)
-
-  
-  ![Barack Obama_2024-11-06_17-05-00](https://github.com/user-attachments/assets/c7ce1a24-43d1-4c9e-82d6-a67f42d39796)
-
-
-  ### H. avg_attention_score<br />
+ 
+  ### 8. avg_attention_score<br />
 
   **This Python script performs real-time face recognition and attentiveness analysis on a video feed, identifying Barack Obama and calculating an attentiveness score based on head pose (yaw and pitch). 
     Screenshots are captured when the individual is attentive, and recognition events, along with attention scores, are logged in an Excel file. The script also calculates and appends the average attentiveness 
     score at the end of the session.** <br />
 
 
-  ### Input: Image of Barak Obama & Video
-
-  ![Barak Obama](https://github.com/user-attachments/assets/a62c20bf-5d9d-4fc2-a16f-8db9f507e7c9)
-  
-  ### Output: 
-  
-  ![Barack Obama_2024-11-06_17-13-08](https://github.com/user-attachments/assets/4d0d6230-96fc-4c9e-bde2-8cd7f2c37354)
+  ###  Input & Output: 
 
   
-  ![Screenshot 2024-11-13 222947](https://github.com/user-attachments/assets/2dfdbb18-c8e0-493d-b7f6-8f815a50b193)
 
-
-  ### I. landmark<br />
+  ### 9. landmark<br />
 
   **This Python script performs real-time face recognition and attentiveness detection, identifying a known face (Barack Obama) and assessing attentiveness based on head pose (yaw and pitch). If the individual 
     is deemed attentive, a screenshot is captured, and the recognition event is logged in an Excel file. The script also highlights the face with a rectangle and displays an attentiveness status (Attentive/Not 
     Attentive) on the video stream.** <br />
 
-  ### Input: Image of Barak Obama & Video
+  ### Input & Output: 
 
-  ![Barak Obama](https://github.com/user-attachments/assets/a62c20bf-5d9d-4fc2-a16f-8db9f507e7c9)
+ 
+
+#    Face Recognition - SHIVA GOUD
+  ### 1. Shiva_attendence_save<br />
   
-  ### Output:
+  ### Input & Output : 
+
+  ### 2. Shiva_face_recognition<br /> 
+
+  ### Input & Output: 
+
+  ### 3. Shiva_test<br />
+
+  ### Input & Output: 
   
-  ![Screenshot 2024-11-13 222617](https://github.com/user-attachments/assets/af59998c-d478-44f9-bb85-b9b69b6f7cd7)
-
-  ![Barack Obama_2024-11-06_16-51-53](https://github.com/user-attachments/assets/26e25494-aefa-45b2-8972-0ab91a40ef37)
-
-
-  ### J. Shiva_attendence_save<br />
+  ### 4. Shiva_tools<br />
   
-  ### Input: Image of Shiva & live video through webcam
-  ### Output: 
-
-  ### K. Shiva_face_recognition<br /> 
-
-  ### Input: Image of Shiva & live video through webcam
-  ### Output: 
-
-  ### L. Shiva_test<br />
-
-  ### Input: Image of Shiva & live video through webcam
-  ### Output: 
+  ### Input & Output: 
   
-  ### M. Shiva_tools<br />
-  
-  ### Input: Image of Shiva & live video through webcam
-  ### Output: 
+  ### 5. Shiva_excel_sc<br />
 
-  ### N. Shiva_excel_sc<br />
-
-  ### Input: Image of Shiva & live video through webcam
-  ### Output: 
+  ### Input & Output:  
   
-  ### O. Shiva_excel_sc_dt<br />
+  ### 6. Shiva_excel_sc_dt<br />
 
-  ### Input: Image of Shiva & live video through webcam
-  ### Output: 
+  ### Input & Output: 
   
-  ### P. Shiva_attention_score<br />
+  ### 7. Shiva_attention_score<br />
 
-  ### Input: Image of Shiva & live video through webcam
-  ### Output:
+  ### Input & Output: 
   
-  ### Q. Shiva_avg_attention_score<br />
+  ### 8. Shiva_avg_attention_score<br />
 
-  ### Input: Image of Shiva & live video through webcam
-  ### Output: 
-  
+  ### Input & Output: 
+
+  ### 9. Shiva_landmark<br />
+
+  ### Input & Output: 
   
 
 
