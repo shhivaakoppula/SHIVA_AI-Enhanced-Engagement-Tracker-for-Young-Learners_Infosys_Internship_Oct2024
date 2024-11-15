@@ -359,7 +359,8 @@ This script updates class IDs in label files, replacing a specified old class ID
 
   ### Input & Output: 
   
-  ![Screenshot 2024-11-13 221520](https://github.com/user-attachments/assets/9e7eebc6-0b86-4915-9e3c-ae54c43b5afd)
+  ![INPUT (1)](https://github.com/user-attachments/assets/bea03792-5a6e-49fd-9f60-579ed8d568d3)
+
 
   
   ### 2. Face_Recog<br />
@@ -392,6 +393,10 @@ This script updates class IDs in label files, replacing a specified old class ID
   ### Input & Output: 
 
   
+  ![EXCEL_SC](https://github.com/user-attachments/assets/02a1e0ed-3649-4574-a43e-11e55dab8950)
+
+
+  
 
   
   ### 6. excel_sc_dt<br />
@@ -403,8 +408,10 @@ This script updates class IDs in label files, replacing a specified old class ID
   ### Input & Output: 
   
 
+  ![EXCEL_SC_DATE](https://github.com/user-attachments/assets/6a1ec4cb-31c8-442a-97d9-42cff4f0fded)
 
   
+
   ### 7. attention_score<br />
 
   **This Python script performs real-time face recognition and attentiveness analysis on a video feed, identifying Barack Obama and calculating an attentiveness score based on head pose (yaw and pitch). 
@@ -412,6 +419,9 @@ This script updates class IDs in label files, replacing a specified old class ID
     facial detection and landmark analysis.** <br />
 
   ### Input & Output: 
+
+  ![ATTENTION_SCORE](https://github.com/user-attachments/assets/41bc042d-f3eb-499d-ab23-e0a550bbbf35)
+
   
  
   ### 8. avg_attention_score<br />
@@ -423,7 +433,8 @@ This script updates class IDs in label files, replacing a specified old class ID
 
   ###  Input & Output: 
 
-  
+  ![AVG_ATTENTION_SCORE](https://github.com/user-attachments/assets/2c861354-28a4-4a8b-834e-704a258454b8)
+
 
   ### 9. landmark<br />
 
@@ -433,7 +444,8 @@ This script updates class IDs in label files, replacing a specified old class ID
 
   ### Input & Output: 
 
- 
+  ![INPUT 7 OUTPUT LANDMARK](https://github.com/user-attachments/assets/39666d68-6ecf-4bea-a790-1d613b807a50)
+
 
 #    Face Recognition - SHIVA GOUD
   ### 1. Shiva_attendence_save<br />
