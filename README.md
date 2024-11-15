@@ -460,42 +460,88 @@ This script updates class IDs in label files, replacing a specified old class ID
 
 
 #    Face Recognition - SHIVA GOUD
+  
   ### 1. Shiva_attendence_save<br />
+
+**It is an automated attendance management system that simplifies tracking and monitoring attendance records. Built using Python and integrated with facial recognition technology, it ensures 
+    accurate and efficient attendance logging. Ideal for educational institutions and workplaces, this project demonstrates advanced AI implementation in day-to-day applications.** <br />
   
   ### Input & Output : 
 
-  ### 2. Shiva_face_recognition<br /> 
+  ![SHIVA ATTENDENCE](https://github.com/user-attachments/assets/8c332ebc-b418-43f9-8bad-c8eff6645e03)
+
+
+  ### 2. Shiva_face_recognition<br />
+  **It is a Python-based project leveraging advanced machine learning and computer vision techniques for accurate face detection and recognition. It supports real-time recognition, making it 
+     suitable for security systems and identity verification. This project showcases the implementation of deep learning models in practical applications.** <br />
 
   ### Input & Output: 
+
+  
+  ![SHIVA FACE RECOGNITION](https://github.com/user-attachments/assets/5c3f7698-bf5d-4ec2-b757-177e190aa7ff)
+   
 
   ### 3. Shiva_test<br />
+  
+  **It is a Python-based project designed to automate testing processes, ensuring efficiency and reliability. It includes features for creating, managing, and executing test cases with detailed result 
+     reporting. This project highlights the integration of automation in quality assurance workflows.** <br />
 
   ### Input & Output: 
+
   
+  ![SHIVA TEST](https://github.com/user-attachments/assets/2a906a2a-8c6b-4d3e-bd67-7fbde89bb77d)
+  
+
   ### 4. Shiva_tools<br />
+  **It is a collection of versatile Python utilities designed to simplify everyday programming tasks. From data processing to file management, this toolkit offers solutions for various development 
+    needs. It is a must-have for developers looking to boost productivity and efficiency.** <br />
   
   ### Input & Output: 
+
+  ![SHIVA TOOLS](https://github.com/user-attachments/assets/582bce18-ef05-4c26-9377-e1d37f12d6f0)
+
   
   ### 5. Shiva_excel_sc<br />
 
   ### Input & Output:  
+
+  ![SHIVA EXCEL SC](https://github.com/user-attachments/assets/992552b8-da7a-42d7-ba02-8333792277ca)
+
   
   ### 6. Shiva_excel_sc_dt<br />
 
   ### Input & Output: 
+
+  ![SHIVA EXCEL SC DATE](https://github.com/user-attachments/assets/4022db7d-4f61-449a-801e-fa3164962000)
+
   
   ### 7. Shiva_attention_score<br />
+  **Ite is a Python project designed to analyze and quantify attention levels in various contexts. It leverages data analytics and machine learning to provide insights into engagement and focus 
+    metrics. This project is ideal for applications in education, productivity tracking, and user behavior analysis.** <br />
 
   ### Input & Output: 
+
+  ![SHIVA ATTENTION SCORE](https://github.com/user-attachments/assets/b9332c0f-8f6c-4fa3-8be7-fb0fdf5ec0ca)
+
   
   ### 8. Shiva_avg_attention_score<br />
+  **It is a Python project that calculates and evaluates the average attention score from collected data. It streamlines the process of aggregating individual attention metrics to 
+    provide actionable insights. This tool is valuable for educators, analysts, and researchers focused on engagement trends.** <br />
 
   ### Input & Output: 
+   
+   ![Shiva AVG ATTENTION SCORE](https://github.com/user-attachments/assets/f8a27285-b8ef-4cdb-a8c9-fa5a7e78c186)
+   
 
   ### 9. Shiva_landmark<br />
+  **It is a Python-based project that identifies and tracks facial landmarks using computer vision techniques. It enables precise mapping of key facial features, useful for applications like emotion 
+    detection, animation, and facial recognition. This project showcases the integration of AI in advanced visual analytics.** <br />
 
-  ### Input & Output: 
+  ### Input & Output:
+
   
+  ![SHIVA LANDMARK](https://github.com/user-attachments/assets/4814a298-e150-4eb2-b89c-5342dee53089)
+
 
 
 
