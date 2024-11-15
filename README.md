@@ -369,6 +369,9 @@ This script updates class IDs in label files, replacing a specified old class ID
   otherwise, it displays "Not Barack Obama." The application runs in real time and displays the results in a video window.** <br />
 
   ### Input & Output: 
+
+  ![FACE_RECOGNITION](https://github.com/user-attachments/assets/9dae315a-91b2-4d94-85a6-53367b871900)
+
   
   ### 3. Test 1<br />
 
@@ -376,14 +379,22 @@ This script updates class IDs in label files, replacing a specified old class ID
     in a DataFrame. If recognized, it annotates the video feed with labels, periodically saving the data to an Excel file.** <br />
 
   ### Input & Output: 
+
+
+  ![TEST](https://github.com/user-attachments/assets/fdca12bd-d2d6-44d5-884e-034f2413f927)
   
+
   ### 4. Tools<br /> 
 
   **This Python script uses OpenCV and `face_recognition` to perform face recognition on a video feed, identifying a known image of Barack Obama. It tracks and annotates recognized faces in real time, logging 
    the recognition time and date to an Excel file once a threshold of five recognitions is met. Users can end the video stream by pressing "q," and a final log save occurs upon exit.** <br /> 
 
   ### Input & Output: 
+
   
+  ![TOOLS](https://github.com/user-attachments/assets/d7adaa6f-e5a7-4445-8b00-e44a84b8ab79)
+  
+
   ### 5. excel_sc<br />
 
   **This Python script performs real-time face recognition using OpenCV and `face_recognition`, comparing detected faces in a video feed to a known image of Barack Obama. It logs recognized faces with timestamps 
