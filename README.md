@@ -266,7 +266,7 @@ https://github.com/user-attachments/assets/3698f3f6-5e9d-4bb0-ac3f-ff888fef85ce
     accuracy.** <br />
 ## Libraries or Frame Works Used - 
 ## opencv, labelimg <br />
-**"."Version - 4.10.0.84** ,
+Version - 4.10.0.84 ,
 ## labelimg <br />
 **version of labelImg - 1.8.6**<br />
 
