@@ -195,11 +195,15 @@
 
 **Video FPS (Frames Per Second):** The number of individual frames displayed per second in a video, determining its smoothness and motion quality.<br />
 
-### Input: Webcam 
+### Input & Output:
 
 
 
-### Output:
+
+https://github.com/user-attachments/assets/3698f3f6-5e9d-4bb0-ac3f-ff888fef85ce
+
+
+
 
 
 ### C. Video_save<br />
