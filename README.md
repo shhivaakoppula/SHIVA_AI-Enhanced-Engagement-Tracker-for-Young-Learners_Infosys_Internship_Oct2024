@@ -5,6 +5,14 @@
 AI Enhanced Engagement Tracker is an intelligent system designed to monitor and analyze user engagement levels in real-time. By leveraging AI and data analytics, it provides actionable insights to enhance productivity and interaction. This tool is ideal for educators, marketers, and workplace managers seeking to optimize engagement strategies.<br />
 
 
+## Project Structure 
+**It Contains Four Parts**
+- 1.Image Processing
+- 2.Video Processing
+- 3.Annotations
+- 4.Face Recognition
+
+
 
 
 #    Image Processing : 
