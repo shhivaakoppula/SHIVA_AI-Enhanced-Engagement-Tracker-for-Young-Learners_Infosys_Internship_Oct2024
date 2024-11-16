@@ -28,7 +28,7 @@ AI Enhanced Engagement Tracker is an intelligent system designed to monitor and 
   
   ### A. Image_Noise removal & Closing Gaps<br />
   
-  **Image Noise Removal:** The process of reducing random variations (noise) in an image to enhance clarity, often using filters.<br />
+  - **Image Noise Removal:** The process of reducing random variations (noise) in an image to enhance clarity, often using filters.<br />
 
   ### Input & Output
 
@@ -40,7 +40,7 @@ AI Enhanced Engagement Tracker is an intelligent system designed to monitor and 
   
   
 
-  **Closing Gaps:** A morphological operation that fills small holes or gaps in an image to create more continuous and solid regions, typically applied after edge detection.<br />
+  - **Closing Gaps:** A morphological operation that fills small holes or gaps in an image to create more continuous and solid regions, typically applied after edge detection.<br />
 
   ### Input  & Output:
 
@@ -49,7 +49,8 @@ AI Enhanced Engagement Tracker is an intelligent system designed to monitor and 
 
 
   ### B. Image_Template image<br />
-  **Image Template:** A predefined pattern or sample image used in template matching to identify or locate specific features within a target image.<br />
+  
+  - **Image Template:** A predefined pattern or sample image used in template matching to identify or locate specific features within a target image.<br />
 
   ### Input & Output:
 
@@ -59,7 +60,8 @@ AI Enhanced Engagement Tracker is an intelligent system designed to monitor and 
  
 
   ### C. Image_Colour image <br /> 
-  **Color Image:** An image composed of multiple color channels (typically red, green, and blue), allowing it to display a wide spectrum of colors.<br />
+  
+  - **Color Image:** An image composed of multiple color channels (typically red, green, and blue), allowing it to display a wide spectrum of colors.<br />
 
   ### Input & Output::
 
@@ -68,7 +70,7 @@ AI Enhanced Engagement Tracker is an intelligent system designed to monitor and 
 
   ### D. Image_Concatenation image <br />
   
-  **Image Concatenation:** The process of joining multiple images side-by-side or on top of each other to create a single combined image.<br />
+  - **Image Concatenation:** The process of joining multiple images side-by-side or on top of each other to create a single combined image.<br />
 
   ### Input & Output:
 
@@ -83,7 +85,7 @@ AI Enhanced Engagement Tracker is an intelligent system designed to monitor and 
   
   ### E. Image_Contour image<br />
   
-  **Image Contour:** The outline or boundary of objects within an image, detected to identify shapes and regions based on differences in color or intensity.<br />
+  - **Image Contour:** The outline or boundary of objects within an image, detected to identify shapes and regions based on differences in color or intensity.<br />
 
   ### Input & Output:
 
@@ -92,7 +94,7 @@ AI Enhanced Engagement Tracker is an intelligent system designed to monitor and 
 
   ### F. Image_Crop image<br />
   
-  **Image Crop:** The process of trimming or cutting out a specific portion of an image to focus on a particular area or remove unwanted sections.<br />
+  - **Image Crop:** The process of trimming or cutting out a specific portion of an image to focus on a particular area or remove unwanted sections.<br />
 
   ### Input & Output:
 
@@ -103,7 +105,7 @@ AI Enhanced Engagement Tracker is an intelligent system designed to monitor and 
   
   ### G. Image_Detect and erosion image<br />
   
-  **Image Detection and Erosion:** Image detection identifies specific features or objects, while erosion is a morphological operation that reduces boundaries in binary images, removing small noise and refining 
+  - **Image Detection and Erosion:** Image detection identifies specific features or objects, while erosion is a morphological operation that reduces boundaries in binary images, removing small noise and refining 
    edges.<br />
 
    ### Input & Output:
@@ -114,7 +116,8 @@ AI Enhanced Engagement Tracker is an intelligent system designed to monitor and 
 
    
   ### H. Image_edge detect image<br /> 
-  **Image Edge Detection:** A technique used to identify and highlight the boundaries or edges within an image, helping to outline shapes and detect object contours.<br />
+  
+  - **Image Edge Detection:** A technique used to identify and highlight the boundaries or edges within an image, helping to outline shapes and detect object contours.<br />
 
   ### Input & Output:
 
@@ -124,7 +127,8 @@ AI Enhanced Engagement Tracker is an intelligent system designed to monitor and 
 
 
   ### I. Image_euqalized image<br />
-  **Image Equalization:** The process of adjusting the intensity distribution in an image to enhance contrast, making details more visible across different lighting conditions.<br />
+  
+  - **Image Equalization:** The process of adjusting the intensity distribution in an image to enhance contrast, making details more visible across different lighting conditions.<br />
 
   ### Input & Output:
 
@@ -133,7 +137,7 @@ AI Enhanced Engagement Tracker is an intelligent system designed to monitor and 
 
   ### J. Image_hsv image<br />
   
-  **Image HSV:** An image representation in the Hue, Saturation, and Value color space, which separates color information (hue) from intensity (value), offering a more intuitive way to manipulate colors.<br />
+  - **Image HSV:** An image representation in the Hue, Saturation, and Value color space, which separates color information (hue) from intensity (value), offering a more intuitive way to manipulate colors.<br />
 
   ### Input & Output:
 
@@ -144,7 +148,7 @@ AI Enhanced Engagement Tracker is an intelligent system designed to monitor and 
 
   ### K. Image_morph image<br />
   
-  **Image Morphing:** A technique that transforms one image into another by gradually changing its features, often used in animation or to blend shapes and textures.<br />
+  - **Image Morphing:** A technique that transforms one image into another by gradually changing its features, often used in animation or to blend shapes and textures.<br />
 
   ### Input & Output:
 
@@ -155,7 +159,7 @@ AI Enhanced Engagement Tracker is an intelligent system designed to monitor and 
 
   ### L. Image_resize image<br />
   
-  **Image Resize:** The process of changing the dimensions of an image by scaling it up or down while maintaining or altering its aspect ratio.<br />
+  - **Image Resize:** The process of changing the dimensions of an image by scaling it up or down while maintaining or altering its aspect ratio.<br />
 
   ### Input & Output:
 
@@ -163,7 +167,8 @@ AI Enhanced Engagement Tracker is an intelligent system designed to monitor and 
 
 
   ### M. Image_rgb to grey image<br />
-  **Image RGB to Grey:** The process of converting a colored image (RGB) to grayscale by averaging or weighted summing the red, green, and blue channels to produce a single intensity value.<br />
+  
+  - **Image RGB to Grey:** The process of converting a colored image (RGB) to grayscale by averaging or weighted summing the red, green, and blue channels to produce a single intensity value.<br />
 
   ### Input & Output:
 
@@ -171,7 +176,8 @@ AI Enhanced Engagement Tracker is an intelligent system designed to monitor and 
   
 
   ### N. Image_single image <br />
-  **Single Image:** An individual visual representation captured or created in digital form, typically consisting of pixels arranged in a grid.<br />
+  
+  - **Single Image:** An individual visual representation captured or created in digital form, typically consisting of pixels arranged in a grid.<br />
 
   ### Input & Output:
 
@@ -179,7 +185,8 @@ AI Enhanced Engagement Tracker is an intelligent system designed to monitor and 
   
 
   ### O. Image_blur image<br />
-  **Image Blur:** The process of smoothing an image by reducing sharp edges and details, often using filters like Gaussian blur to create a softer appearance.<br />
+  
+  - **Image Blur:** The process of smoothing an image by reducing sharp edges and details, often using filters like Gaussian blur to create a softer appearance.<br />
 
   ### Input & Output:
 
@@ -187,9 +194,10 @@ AI Enhanced Engagement Tracker is an intelligent system designed to monitor and 
 
   ### P. Image_Rotated<br />
 
-  **Image_Rotated:** typically refers to an image that has been turned at an angle from its original orientation, either clockwise or counterclockwise. This transformation is often used for adjusting or aligning 
-  visuals to the desired viewpoint, especially when images are unintentionally tilted during capture. Rotation can be applied easily through image editing software, making it a common and straightforward 
-  adjustment in digital imaging.<br />
+  
+  - **Image_Rotated:** typically refers to an image that has been turned at an angle from its original orientation, either clockwise or counterclockwise. This transformation is often used for adjusting or 
+  aligning visuals to the desired viewpoint, especially when images are unintentionally tilted during capture. Rotation can be applied easily through image editing software, making it a common and 
+  straightforward adjustment in digital imaging.<br />
 
    ### Input & Output:
 
@@ -199,15 +207,19 @@ AI Enhanced Engagement Tracker is an intelligent system designed to monitor and 
 
 
    #  Video Processing
+   
    **Video processing involves manipulating and analyzing video data to improve quality, extract information, or enable specific functions like motion detection and object tracking. Techniques include frame-by- 
      frame enhancement, compression, and filtering for smooth playback or real-time processing. It’s crucial in fields like surveillance, streaming, and augmented reality.** <br />
-## Libraries or Frame Works Used - opencv <br />
-## Version - 4.10.0.84 <br /> 
+
+## Libraries or Frame Works Used - 
+## Opencv <br />
+-**Version - 4.10.0.84** <br /> 
+
 ## Developed Logics - <br />
 
 ### A. Video_multivid<br />
 
-**Multi-Video:** The simultaneous display or processing of multiple video streams, often combined into a single output for comparison, editing, or analysis.<br />
+-**Multi-Video:** The simultaneous display or processing of multiple video streams, often combined into a single output for comparison, editing, or analysis.<br />
 
 ### Input: 
 
@@ -216,7 +228,7 @@ AI Enhanced Engagement Tracker is an intelligent system designed to monitor and 
 
 ### B. Video_fps<br />
 
-**Video FPS (Frames Per Second):** The number of individual frames displayed per second in a video, determining its smoothness and motion quality.<br />
+-**Video FPS (Frames Per Second):** The number of individual frames displayed per second in a video, determining its smoothness and motion quality.<br />
 
 ### Input & Output:
 
@@ -231,7 +243,7 @@ https://github.com/user-attachments/assets/3698f3f6-5e9d-4bb0-ac3f-ff888fef85ce
 
 ### C. Video_save<br />
 
-**Video Save:** The process of storing a video file in a specified format and location on a storage device for future access or playback.<br />
+-**Video Save:** The process of storing a video file in a specified format and location on a storage device for future access or playback.<br />
 
 ### Input & Output:
 
@@ -244,7 +256,7 @@ https://github.com/user-attachments/assets/3698f3f6-5e9d-4bb0-ac3f-ff888fef85ce
 
 ### D. Video_stackingh<br />
 
-**Video Stacking Horizontal:** The process of arranging multiple video clips side-by-side in a single frame, creating a horizontal sequence for comparison or simultaneous viewing.<br />
+-**Video Stacking Horizontal:** The process of arranging multiple video clips side-by-side in a single frame, creating a horizontal sequence for comparison or simultaneous viewing.<br />
 
 ### Input & Output:
  
@@ -258,7 +270,7 @@ https://github.com/user-attachments/assets/3698f3f6-5e9d-4bb0-ac3f-ff888fef85ce
 
 ### E. Video_stackingv<br />
 
-**Video Stacking Vertical:** The process of arranging multiple video clips one above the other in a single frame, creating a vertical sequence for comparison or simultaneous viewing.<br />
+- **Video Stacking Vertical:** The process of arranging multiple video clips one above the other in a single frame, creating a vertical sequence for comparison or simultaneous viewing.<br />
 
 ### Input & Output:
 
@@ -269,7 +281,8 @@ https://github.com/user-attachments/assets/3698f3f6-5e9d-4bb0-ac3f-ff888fef85ce
 
 
 ### F. Video_stream<br />
-**Video Stream:** The continuous transmission of video data over the internet or a network, allowing real-time playback without needing to download the entire file.<br />
+
+- **Video Stream:** The continuous transmission of video data over the internet or a network, allowing real-time playback without needing to download the entire file.<br />
 
 ### Input & Output:
 
