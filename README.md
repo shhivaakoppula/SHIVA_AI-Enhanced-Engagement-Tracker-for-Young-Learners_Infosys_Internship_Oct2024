@@ -19,9 +19,13 @@ AI Enhanced Engagement Tracker is an intelligent system designed to monitor and 
 
 #    Image Processing : 
 **Image processing involves techniques for analyzing, enhancing, and transforming images to extract useful information or improve visual quality. This field encompasses tasks like noise reduction, image sharpening, segmentation, and object recognition. It's widely used in areas like medical imaging, computer vision, and multimedia applications.** <br />
-## Libraries or Frame Works Used - opencv <br />
-## Version - 4.10.0.84  <br />
+
+## Libraries or Frame Works Used -
+## opencv <br />
+- **Version - 4.10.0.84**  <br />
+
 ## Developed Logics -<br />
+  
   ### A. Image_Noise removal & Closing Gaps<br />
   
   **Image Noise Removal:** The process of reducing random variations (noise) in an image to enhance clarity, often using filters.<br />
