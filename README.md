@@ -1,4 +1,4 @@
-# AI Enhanced Engagement Tracker
+# AI Enhanced Engagement Tracker 📚
 
 ## Overview :
 
