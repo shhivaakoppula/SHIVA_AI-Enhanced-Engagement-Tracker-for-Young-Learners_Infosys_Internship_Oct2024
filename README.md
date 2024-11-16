@@ -9,10 +9,10 @@ AI Enhanced Engagement Tracker is an intelligent system designed to monitor and 
 
 **It Contains Four Parts**
 
-- **1.Image Processing**
-- **2.Video Processing**
-- **3.Annotations**
-- **4.Face Recognition**
+- **Image Processing**
+- **Video Processing**
+- **Annotations**
+- **Face Recognition**
 
 
 
